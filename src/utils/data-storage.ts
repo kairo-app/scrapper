@@ -28,6 +28,9 @@ export class DataStorage {
     if (data.channelInfo) {
       await this.saveToChannels(data.channelInfo, data.episodes.length);
     }
+    
+    // Update version.json with last_updated timestamp
+    await this.updateVersion();
   }
 
   private async saveToEpisodes(newEpisodes: Episode[]): Promise<void> {
@@ -85,8 +88,7 @@ export class DataStorage {
       episodes: mergedEpisodes,
       metadata: {
         total_episodes: mergedEpisodes.length,
-        total_providers: providers.size,
-        last_updated: new Date().toISOString()
+        total_providers: providers.size
       }
     };
 
@@ -112,7 +114,6 @@ export class DataStorage {
 
     // Update channel info with episode count
     channelInfo.total_episodes = episodeCount;
-    channelInfo.last_updated = new Date().toISOString();
 
     let channels: Channel[];
     
@@ -135,8 +136,7 @@ export class DataStorage {
     const finalData: ChannelsData = {
       channels,
       metadata: {
-        total_channels: channels.length,
-        last_updated: new Date().toISOString()
+        total_channels: channels.length
       }
     };
 
@@ -148,6 +148,18 @@ export class DataStorage {
 
   private async writeJSON(filePath: string, data: any): Promise<void> {
     await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
+  }
+
+  private async updateVersion(): Promise<void> {
+    const versionPath = path.join(this.dataDir, 'version.json');
+    
+    const versionData = {
+      last_updated: new Date().toISOString(),
+      timestamp: Date.now()
+    };
+
+    await this.writeJSON(versionPath, versionData);
+    console.log(`Version updated: ${versionData.last_updated}`);
   }
 
   async loadData(providerName: string): Promise<PodcastData | null> {
@@ -164,8 +176,7 @@ export class DataStorage {
         episodes: providerEpisodes,
         metadata: {
           provider: providerName,
-          total_episodes: providerEpisodes.length,
-          last_updated: allData.metadata.last_updated
+          total_episodes: providerEpisodes.length
         }
       };
     } catch {

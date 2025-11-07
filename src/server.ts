@@ -27,7 +27,6 @@ interface EpisodesData {
   metadata: {
     total_episodes: number;
     total_providers: number;
-    last_updated: string;
   };
 }
 
@@ -35,7 +34,6 @@ interface ChannelsData {
   channels: Channel[];
   metadata: {
     total_channels: number;
-    last_updated: string;
   };
 }
 
@@ -48,7 +46,7 @@ async function getEpisodes(): Promise<EpisodesData> {
     const data = await readFile(join(process.cwd(), 'data', 'episodes.json'), 'utf-8');
     return JSON.parse(data);
   } catch (error) {
-    return { episodes: [], metadata: { total_episodes: 0, total_providers: 0, last_updated: new Date().toISOString() } };
+    return { episodes: [], metadata: { total_episodes: 0, total_providers: 0 } };
   }
 }
 
@@ -57,7 +55,7 @@ async function getChannels(): Promise<ChannelsData> {
     const data = await readFile(join(process.cwd(), 'data', 'channels.json'), 'utf-8');
     return JSON.parse(data);
   } catch (error) {
-    return { channels: [], metadata: { total_channels: 0, last_updated: new Date().toISOString() } };
+    return { channels: [], metadata: { total_channels: 0 } };
   }
 }
 
@@ -92,6 +90,7 @@ app.get('/home', (c) => {
     description: 'API for podcast episodes and channels from multiple providers',
     endpoints: {
       home: '/home',
+      version: '/version',
       episodes: '/episodes',
       channels: '/channels',
       channelById: '/channels/:id',
@@ -113,6 +112,16 @@ app.get('/home', (c) => {
       'hardfork'
     ]
   });
+});
+
+// Get version info
+app.get('/version', async (c) => {
+  try {
+    const data = await readFile(join(process.cwd(), 'data', 'version.json'), 'utf-8');
+    return c.json(JSON.parse(data));
+  } catch (error) {
+    return c.json({ last_updated: null, timestamp: null }, 404);
+  }
 });
 
 // Get all episodes

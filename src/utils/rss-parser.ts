@@ -103,8 +103,7 @@ export class RSSFeedParser {
       episodes: allEpisodes,
       metadata: {
         provider: this.providerName,
-        total_episodes: allEpisodes.length,
-        last_updated: new Date().toISOString()
+        total_episodes: allEpisodes.length
       },
       channelInfo
     };
@@ -133,8 +132,7 @@ export class RSSFeedParser {
       rss_url: this.feedUrl,
       image_url: imageUrl,
       language: channel.language || 'en',
-      total_episodes: 0, // Will be updated when saving
-      last_updated: new Date().toISOString()
+      total_episodes: 0 // Will be updated when saving
     };
   }
 

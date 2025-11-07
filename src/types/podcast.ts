@@ -23,7 +23,6 @@ export interface Channel {
   image_url: string;
   language: string;
   total_episodes: number;
-  last_updated: string;
 }
 
 export interface PodcastData {
@@ -31,7 +30,6 @@ export interface PodcastData {
   metadata: {
     provider: string;
     total_episodes: number;
-    last_updated: string;
   };
   channelInfo?: Channel; // Optional channel information
 }
@@ -41,7 +39,6 @@ export interface AllEpisodesData {
   metadata: {
     total_episodes: number;
     total_providers: number;
-    last_updated: string;
   };
 }
 
@@ -49,6 +46,5 @@ export interface ChannelsData {
   channels: Channel[];
   metadata: {
     total_channels: number;
-    last_updated: string;
   };
 }
