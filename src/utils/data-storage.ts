@@ -21,19 +21,26 @@ export class DataStorage {
   async saveData(providerName: string, data: PodcastData & { channelInfo?: Channel }): Promise<void> {
     await this.ensureDirectoryExists();
 
+    // Track if any data changed
+    let dataChanged = false;
+
     // Save to centralized episodes.json
-    await this.saveToEpisodes(data.episodes);
+    const episodesChanged = await this.saveToEpisodes(data.episodes);
+    dataChanged = dataChanged || episodesChanged;
     
     // Save to centralized channels.json
     if (data.channelInfo) {
-      await this.saveToChannels(data.channelInfo, data.episodes.length);
+      const channelsChanged = await this.saveToChannels(data.channelInfo, data.episodes.length);
+      dataChanged = dataChanged || channelsChanged;
     }
     
-    // Update version.json with last_updated timestamp
-    await this.updateVersion();
+    // Update version.json only if data changed
+    if (dataChanged) {
+      await this.updateVersion();
+    }
   }
 
-  private async saveToEpisodes(newEpisodes: Episode[]): Promise<void> {
+  private async saveToEpisodes(newEpisodes: Episode[]): Promise<boolean> {
     const episodesPath = path.join(this.dataDir, 'episodes.json');
     
     let existingData: AllEpisodesData | null = null;
@@ -97,9 +104,12 @@ export class DataStorage {
     console.log(`Episodes saved to ${episodesPath}`);
     console.log(`  - Total episodes: ${mergedEpisodes.length}`);
     console.log(`  - Total providers: ${providers.size}`);
+    
+    // Return true if any episodes were added
+    return addedCount > 0;
   }
 
-  private async saveToChannels(channelInfo: Channel, episodeCount: number): Promise<void> {
+  private async saveToChannels(channelInfo: Channel, episodeCount: number): Promise<boolean> {
     const channelsPath = path.join(this.dataDir, 'channels.json');
     
     let existingData: ChannelsData | null = null;
@@ -116,10 +126,17 @@ export class DataStorage {
     channelInfo.total_episodes = episodeCount;
 
     let channels: Channel[];
+    let channelChanged = false;
     
     if (existingData) {
       const existingMap = new Map<string, Channel>();
       existingData.channels.forEach(ch => existingMap.set(ch.id, ch));
+      
+      // Check if channel data changed
+      const existingChannel = existingMap.get(channelInfo.id);
+      if (!existingChannel || JSON.stringify(existingChannel) !== JSON.stringify(channelInfo)) {
+        channelChanged = true;
+      }
       
       // Add or update channel
       existingMap.set(channelInfo.id, channelInfo);
@@ -129,6 +146,7 @@ export class DataStorage {
       );
     } else {
       channels = [channelInfo];
+      channelChanged = true;
       console.log(`  - Created new channels file`);
     }
 
@@ -144,6 +162,8 @@ export class DataStorage {
     
     console.log(`Channels saved to ${channelsPath}`);
     console.log(`  - Total channels: ${channels.length}`);
+    
+    return channelChanged;
   }
 
   private async writeJSON(filePath: string, data: any): Promise<void> {

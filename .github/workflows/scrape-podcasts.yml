@@ -29,12 +29,24 @@ jobs:
       - name: Run scraper
         run: npm run dev
       
+      - name: Check for changes
+        id: git_status
+        run: |
+          git add data/episodes.json data/channels.json data/version.json
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+          fi
+      
       - name: Commit and push changes
+        if: steps.git_status.outputs.has_changes == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add data/episodes.json data/channels.json data/version.json
-          git commit -m "Update podcast data [$(date +'%Y-%m-%d')]" || echo "No changes to commit"
+          git commit -m "Update podcast data [$(date +'%Y-%m-%d')]"
           git push origin HEAD:main
