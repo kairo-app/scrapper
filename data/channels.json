@@ -1,0 +1,92 @@
+{
+  "channels": [
+    {
+      "id": "darknetdiaries",
+      "name": "Darknet Diaries",
+      "description": "<p>Explore true stories of the dark side of the Internet with host Jack Rhysider as he takes you on a journey through the chilling world of hacking, data breaches, and cyber crime.</p><p>¿Hablas español? Escucha en español aquí ➔ <a href=\"https://darknetdiaries.com/es/\">https://darknetdiaries.com/es/</a></p>",
+      "author": "Jack Rhysider",
+      "website": "https://darknetdiaries.com/",
+      "rss_url": "https://podcast.darknetdiaries.com",
+      "image_url": "https://f.prxu.org/7057/images/68ff605a-20f3-437f-9ba9-2d17316724b1/uploads_2F1562951997273-pdd2keiryql-99f75240ab90a579e25720d85d3057b2_2Fdarknet-diaries-rss.jpg",
+      "language": "en-us",
+      "total_episodes": 165,
+      "last_updated": "2025-11-07T16:37:39.120Z"
+    },
+    {
+      "id": "dedag",
+      "name": "De Dag",
+      "description": "Elke werkdag biedt Elisabeth Steinz of Marco Geijtenbeek je twintig minuten verdieping bij één onderwerp uit het nieuws.\n\nReageren? Mail dedag@nos.nl.",
+      "author": "NPO Radio 1 / NOS",
+      "website": "https://www.nporadio1.nl/podcasts/de-dag",
+      "rss_url": "https://podcast.npo.nl/feed/de-dag.xml",
+      "image_url": "https://podcast.npo.nl/data/thumb/de-dag.1400.10394b7a5b2b7f0cf2b0e559773d1077.jpg",
+      "language": "nl-nl",
+      "total_episodes": 2051,
+      "last_updated": "2025-11-07T16:37:54.303Z"
+    },
+    {
+      "id": "hardfork",
+      "name": "Hard Fork",
+      "description": "“Hard Fork” is a show about the future that’s already here. Each week, journalists Kevin Roose and Casey Newton explore and make sense of the latest in the rapidly changing world of tech. \n\nSubscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.",
+      "author": "The New York Times",
+      "website": "https://www.nytimes.com/column/hard-fork",
+      "rss_url": "https://feeds.simplecast.com/l2i9YnTd",
+      "image_url": "https://image.simplecastcdn.com/images/4105a47a-42e5-4ccc-887a-832af7989986/23965394-f5e4-4fdb-b150-639f4910353e/3000x3000/nyt-hf-album-art-3000-2.jpg?aid=rss_feed",
+      "language": "en",
+      "total_episodes": 163,
+      "last_updated": "2025-11-07T16:37:56.899Z"
+    },
+    {
+      "id": "maartenvanrossem",
+      "name": "Maarten van Rossem en Tom Jessen",
+      "description": "Maarten van Rossem en Tom Jessen geven hun kijk op het nieuws en de actualiteit.\n\nOok wisselende onderwerpen uit de geschiedenis komen voorbij.\n\nReageren op de podcast? \nMail naar maarten@t-talks.nl.\n\n✉️ Meld je aan voor de nieuwsbrief: https://bit.ly/3vtTqqW",
+      "author": "Tom Jessen en Maarten van Rossem",
+      "website": "https://www.maartendepodcast.nl",
+      "rss_url": "https://anchor.fm/s/21c734c4/podcast/rss",
+      "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/5567033/5567033-1682276210669-9c8c45b803bd.jpg",
+      "language": "nl",
+      "total_episodes": 796,
+      "last_updated": "2025-11-07T16:37:54.952Z"
+    },
+    {
+      "id": "nrcvandaag",
+      "name": "NRC Vandaag",
+      "description": "<p>Vandaag is de dagelijkse podcast van NRC. Elke werkdag hoor je hét verhaal van de dag, verteld door onze beste journalisten. De presentatie is in handen van Bram Endedijk en Gabriella Adèr.</p><p><br></p><p>Zie meer over <a href=\"https://www.nrc.nl/podcastvandaag/\" rel=\"noopener noreferrer\" target=\"_blank\">Vandaag</a> op NRC.nl</p>",
+      "author": "NRC",
+      "website": "https://art19.com/shows/vandaag",
+      "rss_url": "https://rss.art19.com/vandaag",
+      "image_url": "https://content.production.cdn.art19.com/images/2e/d0/18/ab/2ed018ab-e157-4212-9f27-910ee353f0e1/91502b4bd0fde49ef44f4d5a3d8bc772ebc052dc6a2a3fea3f1473035e78fa243366aaf45d3376d959c28075262335c58da6cf79c1cf6890be2ee46354818675.jpeg",
+      "language": "nl",
+      "total_episodes": 1756,
+      "last_updated": "2025-11-07T16:37:51.582Z"
+    },
+    {
+      "id": "sansstormcast",
+      "name": "SANS Internet Stormcenter Daily Cyber Security Podcast (Stormcast)",
+      "description": "A brief daily summary of what is important in information security. The podcast is published every weekday and designed to get you ready for the day with a brief, usually 5 minute long, summary of current network security related events. The content is late breaking, educational and based on listener input as well as on input received by the SANS Internet Stormcenter. You may submit questions and comments via our contact form at https://isc.sans.edu/contact.html .",
+      "author": "Johannes B. Ullrich",
+      "website": "https://isc.sans.edu/podcast.html#stormcast",
+      "rss_url": "https://isc.sans.edu/dailypodcast.xml",
+      "image_url": "https://isc.sans.edu/images/podcast3000.jpg",
+      "language": "en-us",
+      "total_episodes": 2280,
+      "last_updated": "2025-11-07T16:37:44.498Z"
+    },
+    {
+      "id": "thedaily",
+      "name": "The Daily",
+      "description": "This is what the news should sound like. The biggest stories of our time, told by the best journalists in the world. Hosted by Michael Barbaro, Rachel Abrams and Natalie Kitroeff. Twenty minutes a day, five days a week, ready by 6 a.m. \n\nSubscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher.",
+      "author": "The New York Times",
+      "website": "https://www.nytimes.com/the-daily",
+      "rss_url": "https://feeds.simplecast.com/54nAGcIl",
+      "image_url": "https://image.simplecastcdn.com/images/7f2f4c05-9c2f-4deb-82b7-b538062bc22d/73549bf1-94b3-40ff-8aeb-b4054848ec1b/3000x3000/the-daily-album-art-original.jpg?aid=rss_feed",
+      "language": "en",
+      "total_episodes": 2671,
+      "last_updated": "2025-11-07T16:37:50.314Z"
+    }
+  ],
+  "metadata": {
+    "total_channels": 7,
+    "last_updated": "2025-11-07T16:37:56.899Z"
+  }
+}
