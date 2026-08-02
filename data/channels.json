@@ -20,7 +20,7 @@
       "rss_url": "https://podcast.npo.nl/feed/de-dag.xml",
       "image_url": "https://podcast.npo.nl/data/thumb/de-dag.1400.eb3a8e222d2fec5ff274fc5b82476d65.jpg",
       "language": "nl-nl",
-      "total_episodes": 2270
+      "total_episodes": 2271
     },
     {
       "id": "hardfork",
@@ -42,7 +42,7 @@
       "rss_url": "https://anchor.fm/s/21c734c4/podcast/rss",
       "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/5567033/5567033-1682276210669-9c8c45b803bd.jpg",
       "language": "nl",
-      "total_episodes": 1115
+      "total_episodes": 1116
     },
     {
       "id": "nrcvandaag",
