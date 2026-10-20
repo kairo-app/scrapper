@@ -1,6 +1,76 @@
 {
   "episodes": [
     {
+      "id": "20261020-sansstormcast-ep10142",
+      "provider": "sansstormcast",
+      "title": "SANS Stormcast Tuesday, October 20th, 2026: Plex2Shell RCE Exploited; Broadcom eCos Wi-Fi RCE; OVHcloud CLI Compromised; Exchange Issues After October Updates; AI Agent Containment; VBA in DWG YARA",
+      "episode_number": 10142,
+      "date": "2026-10-20T02:00:02.000Z",
+      "audio_url": "https://traffic.libsyn.com/securitypodcast/10142.mp3",
+      "image_url": "https://isc.sans.edu/images/podcast3000.jpg",
+      "url": "https://isc.sans.edu/podcastdetail/10142",
+      "duration": "7:09",
+      "author": "Dr. Johannes B. Ullrich",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. \nSANS Stormcast Tuesday, October 20th, 2026: Plex2Shell RCE Exploited; Broadcom eCos Wi-Fi RCE; OVHcloud CLI Compromised; Exchange Issues After October Updates; AI Agent Containment; VBA in DWG YARA",
+      "description": "<br/>\nToday's episode covers an actively exploited unauthenticated remote code execution chain in Plex Media Server, unpatched Broadcom eCos Wi-Fi flaws that allow code execution on access points without connecting, an infostealer slipped into the OVHcloud command line tools, Exchange Server instability after the October 2026 Windows updates, how to contain AI agents, and a YARA rule for orphaned VBA projects in AutoCAD DWG files.<br/>\nSmall Agents, Smaller Blast Radius: Controlling What AI Can Do<br/>\nMark outlines techniques to restrict what AI agents can do, including limiting permissions, using containers, and planning for AI vendors retiring older models.<br/>\n<a href=\"https://isc.sans.edu/diary/Small%20Agents%2C%20Smaller%20Blast%20Radius%3A%20Controlling%20What%20AI%20Can%20Do/33430\">https://isc.sans.edu/diary/Small%20Agents%2C%20Smaller%20Blast%20Radius%3A%20Controlling%20What%20AI%20Can%20Do/33430</a><br/>\nOrphaned VBA Projects Inside DWG Files: YARA Rule<br/>\nDidier Stevens follows up on hidden Visual Basic for Applications projects in AutoCAD DWG files with a YARA rule to detect them.<br/>\n<a href=\"https://isc.sans.edu/diary/Orphaned%20VBA%20Projects%20Inside%20DWG%20Files%3A%20YARA%20Rule/33434\">https://isc.sans.edu/diary/Orphaned%20VBA%20Projects%20Inside%20DWG%20Files%3A%20YARA%20Rule/33434</a><br/>\nBroadcom eCos Wi-Fi Remote Code Execution Vulnerability<br/>\nQuentin Kaiser shows that an attacker in Wi-Fi range can execute code on Broadcom eCos access points without WPA authentication and steal the WPA key. Broadcom has not issued a CVE, and many ISP-provided access points are affected.<br/>\n<a href=\"https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/\">https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/</a><br/>\nOVHcloud Command Line Tools Compromised<br/>\nFor a few hours on Friday, compromised versions of the OVHcloud CLI shipped an infostealer. Update to version 0.16.0, released after the compromise, and pin package hashes.<br/>\n<a href=\"https://github.com/ovh/ovhcloud-cli/issues/300\">https://github.com/ovh/ovhcloud-cli/issues/300</a><br/>\nPlex2Shell Vulnerability (Exploited!)<br/>\nA chain starting with server-side request forgery (SSRF) to loopback lets attackers steal admin tokens and run code on Plex Media Server without authentication (CVE-2026-96652, CVE-2026-96654, CVE-2026-96655, CVE-2026-96656). It is already exploited; patch now and assume compromise if your server is exposed.<br/>\n<a href=\"https://zmain.info/blog/plex2shell\">https://zmain.info/blog/plex2shell</a><br/>\nExchange Servers May Become Unstable After the October 2026 Windows Updates<br/>\nMicrosoft recommends a registry change rather than uninstalling the update on on-premises Exchange Server.<br/>\n<a href=\"https://techcommunity.microsoft.com/blog/exchange/exchange-servers-may-become-unstable-after-installation-of-october-2026-windows-/4565382\">https://techcommunity.microsoft.com/blog/exchange/exchange-servers-may-become-unstable-after-installation-of-october-2026-windows-/4565382</a><br/>\nNGINX ngx_http_core_module Vulnerability (CVE-2026-15176)<br/>\n<a href=\"https://my.f5.com/manage/s/article/K000162416\">https://my.f5.com/manage/s/article/K000162416</a><br/>\nMy Upcoming Classes<br/>\n<a href=\"https://www.sans.org/profiles/dr-johannes-ullrich\">https://www.sans.org/profiles/dr-johannes-ullrich</a><br/>"
+    },
+    {
+      "id": "20261019-maartenvanrossem-ep1167",
+      "provider": "maartenvanrossem",
+      "title": "Trump duwt Europa richting kernwapens",
+      "episode_number": 1167,
+      "date": "2026-10-19T14:00:00.000Z",
+      "audio_url": "https://traffic.megaphone.fm/APO5333839258.mp3",
+      "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5567033/5567033-1792402005304-48728f99af1e9.jpg",
+      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/Trump-duwt-Europa-richting-kernwapens-e3qnsb4",
+      "duration": "00:33:55",
+      "author": "Tom Jessen en Maarten van Rossem",
+      "summary": "Trump wilde Europa op zijn plek zetten, maar dreigt precies het tegenovergestelde te bereiken. ⁠Doe een kleine donatie🎧 Meer horen:- College Toekomst van Europa🔔 Meer van ons:- Instagram- Website / Nieuwsbrief- Substack - WhatsApp-groep",
+      "description": "<p>Trump wilde Europa op zijn plek zetten, maar dreigt precies het tegenovergestelde te bereiken. </p><p><a href=\"https://www.maartendepodcast.nl/doneer/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">⁠Doe een kleine donatie</a></p><p>🎧 Meer horen:</p><p>- <a href=\"https://www.maartendepodcast.nl/product/toekomst-van-europa/\" target=\"_blank\" rel=\"noopener noreferer\">College Toekomst van Europa</a></p><p>🔔 Meer van ons:</p><p>- <a href=\"https://www.instagram.com/maartentom/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Instagram</a></p><p>- <a href=\"https://www.maartendepodcast.nl/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Website</a> / <a href=\"https://www.maartendepodcast.nl/nieuwsbrief/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Nieuwsbrief</a></p><p>- <a href=\"https://maartentom.substack.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Substack</a> </p><p>- <a href=\"https://bit.ly/43vMnw4\" target=\"_blank\" rel=\"ugc noopener noreferrer\">WhatsApp-groep</a></p>"
+    },
+    {
+      "id": "20261019-dedag-epunknown",
+      "provider": "dedag",
+      "title": "Hoe de Bolsonaro-dynastie Brazilië verovert",
+      "episode_number": null,
+      "date": "2026-10-19T12:22:00.000Z",
+      "audio_url": "https://podcast.npo.nl/file/de-dag/147056/hoe-de-bolsonaro-dynastie-brazilie-verovert.mp3?awCollectionid=feed-123-de-dag&amp;awEpisodeid=feed-123-de-dag_episode-147056-WO_NOS_20368537",
+      "image_url": "https://podcast.npo.nl/data/thumb/de-dag.1400.8585e6e74b55200e4a654eef337073d5.jpg",
+      "url": "https://podcast.npo.nl/file/de-dag/147056/hoe-de-bolsonaro-dynastie-brazilie-verovert.mp3?awCollectionid=feed-123-de-dag&awEpisodeid=feed-123-de-dag_episode-147056-WO_NOS_20368537",
+      "duration": "00:23:35",
+      "author": "",
+      "summary": "Flávio Bolsonaro, de zoon oud-president Jaïr Bolsonaro, maakt goede kans om komend weekend bij de verkiezingen in Brazilië president te worden. Een van de eerste dingen die hij dan zal doen is gratie verlenen aan zijn vader, die november vorig jaar 27 jaar celstraf kreeg voor een couppoging. Uit uitgebreid onderzoek van de politie bleek dat hij ook wist van plannen om zijn rivaal - de huidige president - Lula en anderen te vermoorden. \n\nNaast Flávio Bolsonaro dringen ook andere Bolsonaro's door tot machtige posities, vertelt correspondent Nina Jurna in deze podcast.\n\nHoe kan het dat Brazilië ondanks alle gebeurtenissen deze familie zo massaal in het hart heeft gesloten?\n\nReageren? Mail dedag@nos.nl\n\nPresentatie en montage: Elisabeth Steinz\n\nRedactie: IJsbrand Terpstra\n\nEindredactie: Judith van de Hulsbeek",
+      "description": "Flávio Bolsonaro, de zoon oud-president Jaïr Bolsonaro, maakt goede kans om komend weekend bij de verkiezingen in Brazilië president te worden. Een van de eerste dingen die hij dan zal doen is gratie verlenen aan zijn vader, die november vorig jaar 27 jaar celstraf kreeg voor een couppoging. Uit uitgebreid onderzoek van de politie bleek dat hij ook wist van plannen om zijn rivaal - de huidige president - Lula en anderen te vermoorden. \n\nNaast Flávio Bolsonaro dringen ook andere Bolsonaro's door tot machtige posities, vertelt correspondent Nina Jurna in deze podcast.\n\nHoe kan het dat Brazilië ondanks alle gebeurtenissen deze familie zo massaal in het hart heeft gesloten?\n\nReageren? Mail dedag@nos.nl\n\nPresentatie en montage: Elisabeth Steinz\n\nRedactie: IJsbrand Terpstra\n\nEindredactie: Judith van de Hulsbeek"
+    },
+    {
+      "id": "20261019-thedaily-epunknown",
+      "provider": "thedaily",
+      "title": "Inside Putin’s Plan to Cripple Ukraine This Winter",
+      "episode_number": null,
+      "date": "2026-10-19T09:45:00.000Z",
+      "audio_url": "https://tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/5d4af67f-8924-4298-8fd7-19a04e793c81/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=5d4af67f-8924-4298-8fd7-19a04e793c81&feed=54nAGcIl",
+      "image_url": "https://image.simplecastcdn.com/images/34e5431c-f7f7-4edd-9b5d-0277e197a71b/522d9b1c-4b7b-41d8-96a0-c315398e266a/3000x3000/cropped_1792401090135.jpg?aid=rss_feed",
+      "url": "https://www.nytimes.com/the-daily",
+      "duration": "00:29:00",
+      "author": "The New York Times",
+      "summary": "Moscow seems to be seizing an opening to plunge Ukrainian cities into cold and darkness to try to inflict immense human suffering.",
+      "description": "<p>President Trump said he was making an energy deal with President Vladimir V. Putin of Russia and waiving new sanctions on Moscow. Now, he’s feuding with Ukraine’s leader, Volodymyr Zelensky.</p><p>Russia is taking advantage of the moment by relentlessly striking Kyiv, killing civilians and cutting off power for more than a million people.</p><p>Constant Méheut, who is covering the war for The New York Times, explains why Mr. Putin appears so confident that Russia can bomb Ukraine into submission.</p><p>Guest: <a href=\"https://www.nytimes.com/by/constant-meheut\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Constant Méheut</strong></a>, a correspondent covering the war in Ukraine for The New York Times.</p><p>Background reading:&nbsp;</p><ul><li>Analysis: Why Russia sees a window to <a href=\"https://www.nytimes.com/2026/10/15/world/europe/russia-ukraine-winter-energy.html\" target=\"_blank\" rel=\"noopener noreferrer\">bomb Ukraine into submission.</a></li><li>Mr. Zelensky says Mr. Trump risks <a href=\"https://www.nytimes.com/2026/10/18/world/europe/ukraine-starshield-russia-war.html\" target=\"_blank\" rel=\"noopener noreferrer\">a “historic mistake” if he backs Russia.</a></li></ul><p>Photo: Evgeniy Maloletka/Associated Press</p>\n<p><p>For more information on today’s episode, visit <a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday. </p><p> </p><p>Subscribe today at <a href=\"http://nytimes.com/podcasts\">nytimes.com/podcasts</a> or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here <a href=\"https://www.nytimes.com/activate-access/audio?source=podcatcher\">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><br/> <p>Hosted by Simplecast, an AdsWizz company. See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>"
+    },
+    {
+      "id": "20261019-nrcvandaag-epunknown",
+      "provider": "nrcvandaag",
+      "title": "De voedsellobby, de paashaas en het verbod op kindermarketing",
+      "episode_number": null,
+      "date": "2026-10-19T03:00:00.000Z",
+      "audio_url": "https://rss.art19.com/episodes/174f91af-b299-45d9-8ef7-d97fc59ce371.mp3?rss_browser=BAhJIgtTYWZhcmkGOgZFVA%3D%3D--e8daa48e4e049c2293a0ad1663b4a762c475e386",
+      "image_url": "https://content.production.cdn.art19.com/images/2e/d0/18/ab/2ed018ab-e157-4212-9f27-910ee353f0e1/91502b4bd0fde49ef44f4d5a3d8bc772ebc052dc6a2a3fea3f1473035e78fa243366aaf45d3376d959c28075262335c58da6cf79c1cf6890be2ee46354818675.jpeg",
+      "url": "",
+      "duration": "00:20:55",
+      "author": "",
+      "summary": "De voedselindustrie schuift aan bij het ministerie, terwijl gezondheidsorganisaties moeten wachten.",
+      "description": "<p>Kinderen worden omringd door chocoladesinterklazen, chips met race-auto’s en frisdrank voor gamers. In de supermarkt, op tv en online. Volgens gezondheidsexperts is een verbod op deze kindermarketing nodig in de strijd tegen overgewicht. Maar economieredacteur Martine Kamsma ziet hoe de voedsellobby aan dat wetsvoorstel probeert te knabbelen.</p><p><br></p><p><em>Gast: Martine Kamsma</em></p><p><em>Presentatie: Bram Endedijk&nbsp;</em></p><p><em>Redactie: Samme Kors &amp; Henk Ruigrok van der Werven&nbsp;</em></p><p><em>Montage: Jan Paul de Bondt&nbsp;</em></p><p><em>Eindredactie: Tessa Colen</em></p><p><em>Coördinatie: Ilse Eshuis</em></p><p><em>Productie: Rhea Stroink</em></p><p><br></p><p><em>Heb je vragen, suggesties of ideeën over onze journalistiek? Mail dan naar onze redactie via podcast@nrc.nl.</em></p><p>Zie het privacybeleid op <a href=\"https://art19.com/privacy\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy</a> en de privacyverklaring van Californië op <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>"
+    },
+    {
       "id": "20261018-maartenvanrossem-ep1166",
       "provider": "maartenvanrossem",
       "title": "We maken met AI dezelfde fout als vroeger",
@@ -160232,7 +160302,7 @@
     }
   ],
   "metadata": {
-    "total_episodes": 11445,
+    "total_episodes": 11450,
     "total_providers": 7
   }
 }
