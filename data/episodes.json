@@ -1,6 +1,90 @@
 {
   "episodes": [
     {
+      "id": "20261021-sansstormcast-ep10144",
+      "provider": "sansstormcast",
+      "title": "SANS Stormcast Wednesday, October 21st, 2026: eMudhra Intermediate CA Certificates Revoked; Critical PHP Security Release; Oracle CPU E-Business Suite SQLi (CVE-2026-101767); FortiSIEM gRPC RCE PoC",
+      "episode_number": 10144,
+      "date": "2026-10-21T02:00:02.000Z",
+      "audio_url": "https://traffic.libsyn.com/securitypodcast/10144.mp3",
+      "image_url": "https://isc.sans.edu/images/podcast3000.jpg",
+      "url": "https://isc.sans.edu/podcastdetail/10144",
+      "duration": "6:19",
+      "author": "Dr. Johannes B. Ullrich",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. \nSANS Stormcast Wednesday, October 21st, 2026: eMudhra Intermediate CA Certificates Revoked; Critical PHP Security Release; Oracle CPU E-Business Suite SQLi (CVE-2026-101767); FortiSIEM gRPC RCE PoC",
+      "description": "<br/>\nToday's episode covers eight eMudhra intermediate CA certificates revoked after a key generation error, an accelerated critical PHP security release fixing two core vulnerabilities, Oracle's October 2026 Critical Patch Update with 1,295 fixes including an Oracle E-Business Suite SQL injection, and a proof-of-concept exploit for a FortiSIEM gRPC path traversal leading to remote code execution.<br/>\neMudhra Intermediate CA Compromise<br/>\nEight intermediate CA certificates from Indian certificate authority eMudhra were revoked after a scripting error during the HSM key ceremony left their private keys one byte long. Browsers now reject them, but software with its own CA bundle, like curl on macOS, may need updating. The post includes a browser test page.<br/>\n<a href=\"https://emudhra.we-have-a-problem.com/\">https://emudhra.we-have-a-problem.com/</a><br/>\nUpcoming Critical PHP Security Release<br/>\nPHP fixes two critical vulnerabilities in PHP core, rated CVSS 9.2, affecting versions back to PHP 5. The release was moved up to Wednesday, October 21st at 14:00 UTC (10 a.m. Eastern) after details leaked. Expect exploits soon after the patch.<br/>\n<a href=\"https://www.php.net/archive/2026.php#2026-10-20-1\">https://www.php.net/archive/2026.php#2026-10-20-1</a><br/>\nOracle Critical Patch Update Advisory - October 2026<br/>\nOracle's quarterly update fixes 1,295 new vulnerabilities. Horizon3 is teasing details of an Oracle E-Business Suite SQL injection, CVE-2026-101767.<br/>\n<a href=\"https://www.oracle.com/security-alerts/cpuoct2026.html\">https://www.oracle.com/security-alerts/cpuoct2026.html</a><br/>\n<a href=\"https://x.com/Horizon3Attack/status/2112651247362658611\">https://x.com/Horizon3Attack/status/2112651247362658611</a><br/>\nFortiSIEM gRPC Path Traversal File Write RCE (CVE-2026-106173)<br/>\nA proof of concept is out for the FortiSIEM flaw patched October 13th. It requires access to port 27918, so block it at the firewall until you patch.<br/>\n<a href=\"https://horizon3.ai/attack-research/cve-2026-106173-deep-dive-fortisiem-grpc-path-traversal-file-write-rce/\">https://horizon3.ai/attack-research/cve-2026-106173-deep-dive-fortisiem-grpc-path-traversal-file-write-rce/</a><br/>\nMy Upcoming Classes<br/>\n<a href=\"https://www.sans.org/profiles/dr-johannes-ullrich\">https://www.sans.org/profiles/dr-johannes-ullrich</a><br/>"
+    },
+    {
+      "id": "20261020-maartenvanrossem-ep1168",
+      "provider": "maartenvanrossem",
+      "title": "Wat als Frankrijk een waarschuwing is...",
+      "episode_number": 1168,
+      "date": "2026-10-20T15:31:10.000Z",
+      "audio_url": "https://traffic.megaphone.fm/APO4452758336.mp3",
+      "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5567033/5567033-1792510052298-9e84908ee47e4.jpg",
+      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/Wat-als-Frankrijk-een-waarschuwing-is-e3qq28f",
+      "duration": "00:30:40",
+      "author": "Tom Jessen en Maarten van Rossem",
+      "summary": "De Franse rellen lijken een binnenlandse crisis, maar wat als ze spanningen blootleggen die in heel Europa leven?⁠Doe een kleine donatie🎧 Meer horen:- College Toekomst van Europa🔔 Meer van ons:- Instagram- Website / Nieuwsbrief- Substack - WhatsApp-groep",
+      "description": "<p>De Franse rellen lijken een binnenlandse crisis, maar wat als ze spanningen blootleggen die in heel Europa leven?</p><p><a href=\"https://www.maartendepodcast.nl/doneer/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">⁠Doe een kleine donatie</a></p><p>🎧 Meer horen:</p><p>- <a href=\"https://www.maartendepodcast.nl/product/toekomst-van-europa/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">College Toekomst van Europa</a></p><p>🔔 Meer van ons:</p><p>- <a href=\"https://www.instagram.com/maartentom/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Instagram</a></p><p>- <a href=\"https://www.maartendepodcast.nl/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Website</a> / <a href=\"https://www.maartendepodcast.nl/nieuwsbrief/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Nieuwsbrief</a></p><p>- <a href=\"https://maartentom.substack.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Substack</a> </p><p>- <a href=\"https://bit.ly/43vMnw4\" target=\"_blank\" rel=\"ugc noopener noreferrer\">WhatsApp-groep</a></p>"
+    },
+    {
+      "id": "20261020-thedaily-epunknown",
+      "provider": "thedaily",
+      "title": "James Talarico on the Rage Economy, Billionaires and Flipping Texas",
+      "episode_number": null,
+      "date": "2026-10-20T09:45:00.000Z",
+      "audio_url": "https://tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/15e1e27a-94bb-46f3-94cb-085aa2f8a88c/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=15e1e27a-94bb-46f3-94cb-085aa2f8a88c&feed=54nAGcIl",
+      "image_url": "https://image.simplecastcdn.com/images/7f2f4c05-9c2f-4deb-82b7-b538062bc22d/73549bf1-94b3-40ff-8aeb-b4054848ec1b/3000x3000/the-daily-album-art-original.jpg?aid=rss_feed",
+      "url": "https://www.nytimes.com/the-daily",
+      "duration": "00:35:42",
+      "author": "The New York Times",
+      "summary": "Our interview with James Talarico, the Democratic nominee for Senate in Texas.",
+      "description": "<p>James Talarico is asking Texas to do something it hasn’t done in nearly 40 years: Elect a Democrat to the U.S. Senate. It won’t be easy. It will take a vast coalition of Democrats, independents and Republicans in a bright red state that President Trump won by about 14 percentage points in 2024 — and where Republicans have plowed hundreds of millions of dollars into beating Mr. Talarico. And yet, poll after poll shows that Mr. Talarico could pull it off and defeat his Republican rival, Ken Paxton, the Texas attorney general and a Trump ally.&nbsp;</p><p>On Monday, nearly two weeks before Election Day, Michael Barbaro spoke with Mr. Talarico about the kind of race he’s running, why it has succeeded so far in appealing to Republicans and what he wants Democrats to do if they flip control of the Senate on Nov. 3.</p><p>Guest: James Talarico, the Democratic nominee for Senate in Texas.</p><p>Background reading:&nbsp;</p><ul><li>Top Democrats, who have long been hesitant to spend money in Texas, <a href=\"https://www.nytimes.com/2026/09/29/us/politics/james-talarico-ken-paxton-texas-senate-race-money.html\" rel=\"noopener noreferrer\">have started to back Mr. Talarico</a>.</li></ul>\n<p><p>For more information on today’s episode, visit <a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday. </p><p> </p><p>Subscribe today at <a href=\"http://nytimes.com/podcasts\">nytimes.com/podcasts</a> or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here <a href=\"https://www.nytimes.com/activate-access/audio?source=podcatcher\">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><br/> <p>Hosted by Simplecast, an AdsWizz company. See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>"
+    },
+    {
+      "id": "20261020-dedag-epunknown",
+      "provider": "dedag",
+      "title": "Wat is nu wijsheid voor president Zelensky?",
+      "episode_number": null,
+      "date": "2026-10-20T07:49:00.000Z",
+      "audio_url": "https://podcast.npo.nl/file/de-dag/147082/wat-is-nu-wijsheid-voor-president-zelensky.mp3?awCollectionid=feed-123-de-dag&amp;awEpisodeid=feed-123-de-dag_episode-147082-WO_NOS_20368671",
+      "image_url": "https://podcast.npo.nl/data/thumb/de-dag.1400.8585e6e74b55200e4a654eef337073d5.jpg",
+      "url": "https://podcast.npo.nl/file/de-dag/147082/wat-is-nu-wijsheid-voor-president-zelensky.mp3?awCollectionid=feed-123-de-dag&awEpisodeid=feed-123-de-dag_episode-147082-WO_NOS_20368671",
+      "duration": "00:26:55",
+      "author": "",
+      "summary": "De onderlinge verhoudingen tussen De Amerikaanse president Trump en de Oekraïense president Zelensky hebben een nieuw dieptepunt bereikt en de Amerikaanse steun aan Oekraïne in de oorlog brokkelt in rap tempo af. Na de diesel-deal met Poetin vorige week, schrapte president Trump dit weekend een groot sanctie-pakket tegen Rusland, en ondertussen werkt het Starlinksysteem op halve kracht.\n\nWat is nu wijsheid voor president Zelensky, die zelf ook steeds openlijker afstand neemt van Trump?\n\nBob Deen, Oost-Europa deskundige en directeur van Instituut Clingendael, geeft in de podcast zijn analyse.\n\nReageren? Mail dedag@nos.nl\n\nPresentatie en montage: Elisabeth Steinz\n\nRedactie: IJsbrand Terpstra\n\nEindredactie: Judith van de Hulsbeek",
+      "description": "De onderlinge verhoudingen tussen De Amerikaanse president Trump en de Oekraïense president Zelensky hebben een nieuw dieptepunt bereikt en de Amerikaanse steun aan Oekraïne in de oorlog brokkelt in rap tempo af. Na de diesel-deal met Poetin vorige week, schrapte president Trump dit weekend een groot sanctie-pakket tegen Rusland, en ondertussen werkt het Starlinksysteem op halve kracht.\n\nWat is nu wijsheid voor president Zelensky, die zelf ook steeds openlijker afstand neemt van Trump?\n\nBob Deen, Oost-Europa deskundige en directeur van Instituut Clingendael, geeft in de podcast zijn analyse.\n\nReageren? Mail dedag@nos.nl\n\nPresentatie en montage: Elisabeth Steinz\n\nRedactie: IJsbrand Terpstra\n\nEindredactie: Judith van de Hulsbeek"
+    },
+    {
+      "id": "20261020-darknetdiaries-ep181",
+      "provider": "darknetdiaries",
+      "title": "181: Ricky",
+      "episode_number": 181,
+      "date": "2026-10-20T07:00:00.000Z",
+      "audio_url": "https://dovetail.prxu.org/7057/88c4d72a-2377-4fef-9dac-3cd23529b881/darknet-diaries-ep181-ricky.mp3",
+      "image_url": "https://f.prxu.org/7057/88c4d72a-2377-4fef-9dac-3cd23529b881/images/2e54d4f4-a6c2-4981-a0f0-610547e4fcbd/Ep181_Square.jpg",
+      "url": "https://darknetdiaries.com/episode/181/",
+      "duration": "01:20:15",
+      "author": "Jack Rhysider",
+      "summary": "Imagine driving down the road and your phone loses signal. Not just a lost signal, but it starts displaying SOS. Meaning no service configured at all. You can't make any calls, no data, no service. What goes through your head?\n\nIn this episode we hear from Ricky Handschumacher who learned how to slip inside a stranger’s phone, and would rummage through it looking for things he thought were valuable.\nSponsors\nSupport for this show comes from DeleteMe. DeleteMe is a hands-free subscription service that will remove your personal information that’s being sold online to data brokers. Our mission is to provide everyone with the power to control their digital identity. We empower individuals and organizations to reclaim their privacy by removing personal data from online sources. For 20% off our privacy plans, please visit JoinDeleteMe.com/DarknetDiaries and use code: “darknet” at checkout.\n\nThis show is brought to you by Doppel. Doppel stops AI attacks with digital risk protection, human risk management, and email security on a unified social engineering defense platform. doppel.com\n\nSupport for this show comes from ThreatLocker. ThreatLocker is a Zero Trust Platform that gives organizations control over what can run and what users and devices can access. It combines prevention with real time detection and automated response, helping security teams stop unauthorized activity and quickly contain compromised machines. Learn how ThreatLocker can strengthen your defenses at threatlocker.com/Darknet.\n\nView all active sponsors.\nSources\nhttps://www.youtube.com/watch?v=J7yLKVnQcNg&amp;t=7s\nhttps://www.wsj.com/tech/cybersecurity/getting-cheated-in-a-videogame-led-him-to-a-world-of-online-crime-874392e7\nhttps://darknetdiaries.com/transcript/118/\nhttps://whatismyipaddress.com/mobile-security-sim-swapping",
+      "description": "<p>Imagine driving down the road and your phone loses signal. Not just a lost signal, but it starts displaying SOS. Meaning no service configured at all. You can't make any calls, no data, no service. What goes through your head?<br><br>In this episode we hear from Ricky Handschumacher who learned how to slip inside a stranger’s phone, and would rummage through it looking for things he thought were valuable.</p><h3>Sponsors</h3><p>Support for this show comes from <a href=\"https://JoinDeleteMe.com/DarknetDiaries\"><strong>DeleteMe</strong></a>. DeleteMe is a hands-free subscription service that will remove your personal information that’s being sold online to data brokers. Our mission is to provide everyone with the power to control their digital identity. We empower individuals and organizations to reclaim their privacy by removing personal data from online sources. For 20% off our privacy plans, please visit <a href=\"https://JoinDeleteMe.com/DarknetDiaries\"><strong>JoinDeleteMe.com/DarknetDiaries</strong></a> and use code: “darknet” at checkout.</p><p>This show is brought to you by <a href=\"https://doppel.com/\"><strong>Doppel</strong></a>. Doppel stops AI attacks with digital risk protection, human risk management, and email security on a unified social engineering defense platform. <a href=\"http://doppel.com/\"><strong>doppel.com</strong></a></p><p>Support for this show comes from <a href=\"https://threatlocker.com/Darknet\"><strong>ThreatLocker</strong></a>. ThreatLocker is a Zero Trust Platform that gives organizations control over what can run and what users and devices can access. It combines prevention with real time detection and automated response, helping security teams stop unauthorized activity and quickly contain compromised machines. Learn how ThreatLocker can strengthen your defenses at <a href=\"https://threatlocker.com/Darknet\"><strong>threatlocker.com/Darknet</strong></a>.</p><p><a href=\"https://darknetdiaries.com/sponsors/\"><strong>View all active sponsors.</strong></a></p><h3>Sources</h3><ul>\n<li><a href=\"https://www.youtube.com/watch?v=J7yLKVnQcNg&amp;t=7s\"><strong>https://www.youtube.com/watch?v=J7yLKVnQcNg&amp;t=7s</strong></a></li>\n<li><a href=\"https://www.wsj.com/tech/cybersecurity/getting-cheated-in-a-videogame-led-him-to-a-world-of-online-crime-874392e7\"><strong>https://www.wsj.com/tech/cybersecurity/getting-cheated-in-a-videogame-led-him-to-a-world-of-online-crime-874392e7</strong></a></li>\n<li><a href=\"https://darknetdiaries.com/transcript/118/\"><strong>https://darknetdiaries.com/transcript/118/</strong></a></li>\n<li><a href=\"https://whatismyipaddress.com/mobile-security-sim-swapping\"><strong>https://whatismyipaddress.com/mobile-security-sim-swapping</strong></a></li>\n</ul>"
+    },
+    {
+      "id": "20261020-nrcvandaag-epunknown",
+      "provider": "nrcvandaag",
+      "title": "Lege schappen, geen stroom: hoe goed zijn we voorbereid?",
+      "episode_number": null,
+      "date": "2026-10-20T03:00:00.000Z",
+      "audio_url": "https://rss.art19.com/episodes/de7ec3f7-825a-41ad-9d12-061eff1b54f8.mp3?rss_browser=BAhJIgtTYWZhcmkGOgZFVA%3D%3D--e8daa48e4e049c2293a0ad1663b4a762c475e386",
+      "image_url": "https://content.production.cdn.art19.com/images/2e/d0/18/ab/2ed018ab-e157-4212-9f27-910ee353f0e1/91502b4bd0fde49ef44f4d5a3d8bc772ebc052dc6a2a3fea3f1473035e78fa243366aaf45d3376d959c28075262335c58da6cf79c1cf6890be2ee46354818675.jpeg",
+      "url": "",
+      "duration": "00:20:23",
+      "author": "",
+      "summary": "Hoe zelfredzaam zijn Nederlandse burgers?",
+      "description": "<p>Als de schappen bij de Albert Heijn leeg zijn, ben je aangewezen op je eigen noodvoorraad. Maar lang niet alle Nederlanders hebben die, ziet verslaggever Titia Ketelaar. Ze trok door het land om te zien welke voorbereidingen worden getroffen en vroeg zich af: zijn we goed genoeg voorbereid op een noodsituatie?</p><p><br></p><p><em>Gast: Titia Ketelaar</em></p><p><em>Presentatie Gabriella Adèr&nbsp;</em></p><p><em>Redactie: Esmee Dirks &amp; Ilse Eshuis</em></p><p><em>Montage: Jennifer Pettersson</em></p><p><em>Eindredactie: Ignace Schoot</em></p><p><em>Coördinatie: Ilse Eshuis</em></p><p><em>Productie: Rhea Stroink</em></p><p><br></p><p><em>Heb je vragen, suggesties of ideeën over onze journalistiek? Mail dan naar onze redactie via podcast@nrc.nl.</em></p><p>Zie het privacybeleid op <a href=\"https://art19.com/privacy\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy</a> en de privacyverklaring van Californië op <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>"
+    },
+    {
       "id": "20261020-sansstormcast-ep10142",
       "provider": "sansstormcast",
       "title": "SANS Stormcast Tuesday, October 20th, 2026: Plex2Shell RCE Exploited; Broadcom eCos Wi-Fi RCE; OVHcloud CLI Compromised; Exchange Issues After October Updates; AI Agent Containment; VBA in DWG YARA",
@@ -160302,7 +160386,7 @@
     }
   ],
   "metadata": {
-    "total_episodes": 11450,
+    "total_episodes": 11456,
     "total_providers": 7
   }
 }
