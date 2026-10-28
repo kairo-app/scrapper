@@ -1,6 +1,90 @@
 {
   "episodes": [
     {
+      "id": "20261028-sansstormcast-ep10154",
+      "provider": "sansstormcast",
+      "title": "SANS Stormcast Wednesday, October 28th, 2026: eMudhra CA Revocation for Windows, macOS, Linux; PHP RCE Exploited on Palo Alto PAN-OS; Microsoft Authenticator Android Token Leak; GoAhead TLS Bugs",
+      "episode_number": 10154,
+      "date": "2026-10-28T02:30:11.000Z",
+      "audio_url": "https://traffic.libsyn.com/securitypodcast/10154.mp3",
+      "image_url": "https://isc.sans.edu/images/podcast3000.jpg",
+      "url": "https://isc.sans.edu/podcastdetail/10154",
+      "duration": "6:08",
+      "author": "Dr. Johannes B. Ullrich",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. \nSANS Stormcast Wednesday, October 28th, 2026: eMudhra CA Revocation for Windows, macOS, Linux; PHP RCE Exploited on Palo Alto PAN-OS; Microsoft Authenticator Android Token Leak; GoAhead TLS Bugs",
+      "description": "<br/>\nIn this episode: updates on revoking the compromised eMudhra certificate authority certificates on Windows, macOS, Linux and Python, confirmed exploitation of the PHP vulnerabilities against Palo Alto Networks devices, a token leak in Microsoft Authenticator for Android, and TLS certificate validation flaws in the GoAhead embedded web server.<br/>\neMudhra Certificate Revocation Updates for Windows, macOS, Linux and Python<br/>\nMicrosoft released out-of-band updates for Windows 10 and 11 to distrust the compromised eMudhra intermediate certificate authority (CA) certificates, and Apple now blocks them in Safari, Mail and apps that use Apple's networking frameworks. Command-line tools that rely on /etc/ssl/cert.pem, Homebrew, Python's certifi package and Linux CA bundles may still trust them until updated. Because the private keys are known, anyone could issue certificates that appear valid.<br/>\n<a href=\"https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5134133-windows-11-24h2-25h2-26h2-update\">https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5134133-windows-11-24h2-25h2-26h2-update</a><br/>\n<a href=\"https://support.microsoft.com/en-us/servicing/os/windows-10/2026/10/kb5134125-windows-10-21h2-22h2-update\">https://support.microsoft.com/en-us/servicing/os/windows-10/2026/10/kb5134125-windows-10-21h2-22h2-update</a><br/>\n<a href=\"https://support.apple.com/en-us/149555\">https://support.apple.com/en-us/149555</a><br/>\nPHP RCE Vulnerabilities Exploited on Palo Alto Networks PAN-OS (CVE-2026-109618, CVE-2026-109619)<br/>\nPalo Alto Networks has confirmed active exploitation of the critical PHP remote code execution (RCE) flaws against PAN-OS management interfaces exposed to the internet. Some Palo Alto appliances apparently don't always support address space layout randomization (ASLR), which makes exploitation easier, so apply the hotfixes and the advisory's mitigations quickly.<br/>\n<a href=\"https://security.paloaltonetworks.com/CVE-2026-109618\">https://security.paloaltonetworks.com/CVE-2026-109618</a><br/>\nMicrosoft Authenticator for Android Token Theft Flaw (CVE-2026-80097)<br/>\nOfek Levin of Enclave.ai found that any other app on the same Android device could obtain authentication tokens from Microsoft Authenticator, breaking a core assumption of using a phone as a second factor. Microsoft has fixed the flaw; versions before 6.2606.4246 are affected.<br/>\n<a href=\"https://enclave.ai/blog/authmask-we-made-microsoft-authenticator-hand-over-tokens\">https://enclave.ai/blog/authmask-we-made-microsoft-authenticator-hand-over-tokens</a><br/>\nGoAhead Embedded Web Server TLS Flaws (CVE-2026-115881, CVE-2026-115884)<br/>\nResearchers from FoxIO found TLS certificate validation flaws in GoAhead, an embedded web server common in IoT devices, including one where certificate revocation lists (CRLs) are loaded but ignored. GoAhead 6.1.1 fixes the bugs, but most users will have to wait for their device vendor to ship an update.<br/>\n<a href=\"https://foxio.io/blog/choose-your-backend-three-tls-bugs-in-goahead\">https://foxio.io/blog/choose-your-backend-three-tls-bugs-in-goahead</a><br/>\nMy Upcoming Classes<br/>\n<a href=\"https://www.sans.org/profiles/dr-johannes-ullrich\">https://www.sans.org/profiles/dr-johannes-ullrich</a><br/>\nSANS Difference Maker Awards<br/>\nDr. Johannes Ullrich is up for the SANS Difference Maker Lifetime Award this year. Please vote:<br/>\n<a href=\"https://www.sans.org/go/difference-makers-awards-2026\">https://www.sans.org/go/difference-makers-awards-2026</a><br/>"
+    },
+    {
+      "id": "20261027-maartenvanrossem-ep1174",
+      "provider": "maartenvanrossem",
+      "title": "Trump en Netanyahu hebben hier totaal niet op gerekend…",
+      "episode_number": 1174,
+      "date": "2026-10-27T16:50:34.000Z",
+      "audio_url": "https://traffic.megaphone.fm/APO3772803054.mp3",
+      "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5567033/5567033-1793119775013-b364573cc94d3.jpg",
+      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/Trump-en-Netanyahu-hebben-hier-totaal-niet-op-gerekend-e3r5gc0",
+      "duration": "00:32:18",
+      "author": "Tom Jessen en Maarten van Rossem",
+      "summary": "Trump en Netanyahu willen Iran aanpakken, maar wat als Iran keihard terugslaat? Terwijl de gevolgen van de oorlog dreigen op te lopen, kunnen de verkiezingen voor beide leiders weleens heel anders uitpakken dan verwacht…⁠Doe een kleine donatie🎧 Meer horen:- College Het spel van Iran dat we niet zien🔔 Meer van ons:- Instagram- Website / Nieuwsbrief- Substack - WhatsApp-groep",
+      "description": "<p>Trump en Netanyahu willen Iran aanpakken, maar wat als Iran keihard terugslaat? Terwijl de gevolgen van de oorlog dreigen op te lopen, kunnen de verkiezingen voor beide leiders weleens heel anders uitpakken dan verwacht…</p><p><a href=\"https://www.maartendepodcast.nl/doneer/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">⁠Doe een kleine donatie</a></p><p>🎧 Meer horen:</p><p>- <a href=\"https://www.maartendepodcast.nl/product/het-spel-van-iran-dat-we-niet-zien/\" target=\"_blank\" rel=\"noopener noreferer\">College Het spel van Iran dat we niet zien</a></p><p>🔔 Meer van ons:</p><p>- <a href=\"https://www.instagram.com/maartentom/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Instagram</a></p><p>- <a href=\"https://www.maartendepodcast.nl/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Website</a> / <a href=\"https://www.maartendepodcast.nl/nieuwsbrief/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Nieuwsbrief</a></p><p>- <a href=\"https://maartentom.substack.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Substack</a> </p><p>- <a href=\"https://bit.ly/43vMnw4\" target=\"_blank\" rel=\"ugc noopener noreferrer\">WhatsApp-groep</a></p>"
+    },
+    {
+      "id": "20261027-dedag-epunknown",
+      "provider": "dedag",
+      "title": "Na Orbán valt Vucic, maar hoe ruim je corruptie op?",
+      "episode_number": null,
+      "date": "2026-10-27T13:16:00.000Z",
+      "audio_url": "https://podcast.npo.nl/file/de-dag/147403/na-orban-valt-vucic-maar-hoe-ruim-je-corruptie-op.mp3?awCollectionid=feed-123-de-dag&amp;awEpisodeid=feed-123-de-dag_episode-147403-WO_NOS_20369795",
+      "image_url": "https://podcast.npo.nl/data/thumb/de-dag.1400.8585e6e74b55200e4a654eef337073d5.jpg",
+      "url": "https://podcast.npo.nl/file/de-dag/147403/na-orban-valt-vucic-maar-hoe-ruim-je-corruptie-op.mp3?awCollectionid=feed-123-de-dag&awEpisodeid=feed-123-de-dag_episode-147403-WO_NOS_20369795",
+      "duration": "00:20:55",
+      "author": "",
+      "summary": "De studenten in Servië kunnen het bijna niet geloven: hun beweging heeft een einde gemaakt aan het autoritaire regime van oud-president Vucic. Hun partij heeft een absolute meerderheid gewonnen en kan nu aan de slag met het belangrijkste doel: de democratie en de rechtsstaat herstellen. Maar hoe doe je dat? \n\nDe blijdschap, de hoop en de intenties van de studentenbeweging doet denken aan de situatie in Hongarije, waar in april Viktor Orbán van de troon werd gestoten en waar zijn opvolger ook beloofde om het land weer op te bouwen. Hongarije-deskundige Krisztina Lajosi-Moore vertelt in de podcast wat er in zes maanden tijd al bereikt is. En correspondent Thijs Kettenis zet uiteen hoe de studentenbeweging in Servië is opgekomen, wat hun plannen nu zijn en wie de torenhoge ambities moeten gaan waarmaken. \n\nReageren? Mail dedag@nos.nl\n\nPresentatie en montage: Elisabeth Steinz\n\nRedactie: Marco Geijtenbeek\n\nEindredactie: Judith van de Hulsbeek",
+      "description": "De studenten in Servië kunnen het bijna niet geloven: hun beweging heeft een einde gemaakt aan het autoritaire regime van oud-president Vucic. Hun partij heeft een absolute meerderheid gewonnen en kan nu aan de slag met het belangrijkste doel: de democratie en de rechtsstaat herstellen. Maar hoe doe je dat? \n\nDe blijdschap, de hoop en de intenties van de studentenbeweging doet denken aan de situatie in Hongarije, waar in april Viktor Orbán van de troon werd gestoten en waar zijn opvolger ook beloofde om het land weer op te bouwen. Hongarije-deskundige Krisztina Lajosi-Moore vertelt in de podcast wat er in zes maanden tijd al bereikt is. En correspondent Thijs Kettenis zet uiteen hoe de studentenbeweging in Servië is opgekomen, wat hun plannen nu zijn en wie de torenhoge ambities moeten gaan waarmaken. \n\nReageren? Mail dedag@nos.nl\n\nPresentatie en montage: Elisabeth Steinz\n\nRedactie: Marco Geijtenbeek\n\nEindredactie: Judith van de Hulsbeek"
+    },
+    {
+      "id": "20261027-thedaily-epunknown",
+      "provider": "thedaily",
+      "title": "They Protested ICE. Now They’ve Been Convicted of Terrorism.",
+      "episode_number": null,
+      "date": "2026-10-27T09:53:22.000Z",
+      "audio_url": "https://tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/75fb862b-e951-4edc-a99c-24a745a3d0d9/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=75fb862b-e951-4edc-a99c-24a745a3d0d9&feed=54nAGcIl",
+      "image_url": "https://image.simplecastcdn.com/images/34e5431c-f7f7-4edd-9b5d-0277e197a71b/734f482f-f4c4-4425-bd55-39f553740c42/3000x3000/cropped_1793091664213.jpg?aid=rss_feed",
+      "url": "https://www.nytimes.com/the-daily",
+      "duration": "00:47:26",
+      "author": "The New York Times",
+      "summary": "The strange story behind the first federal terrorism prosecution of American protesters.",
+      "description": "<p>On July 4, 2025, a group of 10 antifa protesters was arrested, accused of what the federal government called a planned attack on the Prairieland detention facility in Texas. They were prosecuted as terrorists.</p><p>Janet Reitman, who has been covering the story, discusses the legal case and the questions it raises about who now qualifies as a terrorist in America.</p><p>Guest: <a href=\"https://www.nytimes.com/by/janet-reitman\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Janet Reitman</strong></a>, who writes for The New York Times Magazine.</p><p>Background reading:&nbsp;</p><ul><li>Inside the group of <a href=\"https://www.nytimes.com/2026/10/05/magazine/prairieland-protesters-socialist-rifle-association.html\" target=\"_blank\" rel=\"noopener noreferrer\">Texans accused of being antifa terrorists</a>.</li></ul><p>Photo: Juan Figueroa/The Dallas Morning News, via Getty Images</p>\n<p><p>For more information on today’s episode, visit <a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday. </p><p> </p><p>Subscribe today at <a href=\"http://nytimes.com/podcasts\">nytimes.com/podcasts</a> or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here <a href=\"https://www.nytimes.com/activate-access/audio?source=podcatcher\">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><br/> <p>Hosted by Simplecast, an AdsWizz company. See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>"
+    },
+    {
+      "id": "20261027-nrcvandaag-epunknown",
+      "provider": "nrcvandaag",
+      "title": "De Israëlische verkiezingen gaan niet over het lot van de Palestijnen",
+      "episode_number": null,
+      "date": "2026-10-27T04:00:00.000Z",
+      "audio_url": "https://rss.art19.com/episodes/e3bafb15-43b0-41f6-9112-962b1dc44bc0.mp3?rss_browser=BAhJIgtTYWZhcmkGOgZFVA%3D%3D--e8daa48e4e049c2293a0ad1663b4a762c475e386",
+      "image_url": "https://content.production.cdn.art19.com/images/2e/d0/18/ab/2ed018ab-e157-4212-9f27-910ee353f0e1/91502b4bd0fde49ef44f4d5a3d8bc772ebc052dc6a2a3fea3f1473035e78fa243366aaf45d3376d959c28075262335c58da6cf79c1cf6890be2ee46354818675.jpeg",
+      "url": "",
+      "duration": "00:18:37",
+      "author": "",
+      "summary": "Zijn deze verkiezingen het einde van premier Benjamin Netanyahu?",
+      "description": "<p>De hele wereld kijkt vandaag naar Israël, waar de Israëliërs naar de stembus gaan. Er is een kans dat Benjamin Netanyahu hierna niet langer de scepter zwaait. Correspondent Lucia Admiraal ziet dat het tijdens de verkiezingen veel over 7 oktober gaat, maar dat er nauwelijks oog is voor de Palestijnen en de rest van de wereld.&nbsp;</p><p><br></p><p><em>Gast: Lucia Admiraal&nbsp;</em></p><p><em>Presentatie: Gabriella Adèr&nbsp;</em></p><p><em>Redactie: Iris Verhulsdonk, Samme Kors &amp; Annabel Ronhaar</em></p><p><em>Montage: Marcel Korfage</em></p><p><em>Eindredactie: Ignace Schoot &amp; Iddo Havinga&nbsp;</em></p><p><em>Coördinatie: Ilse Eshuis&nbsp;</em></p><p><em>Productie: Rhea Stroink</em></p><p><br></p><p>Heb je vragen, suggesties of ideeën over onze journalistiek? Mail dan onze redactie via podcast@nrc.nl</p><p>Zie het privacybeleid op <a href=\"https://art19.com/privacy\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy</a> en de privacyverklaring van Californië op <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>"
+    },
+    {
+      "id": "20261027-sansstormcast-ep10152",
+      "provider": "sansstormcast",
+      "title": "SANS Stormcast Tuesday, October 27th, 2026: Apple Patches 304 Vulnerabilities Incl. Exploited CoreGraphics Flaw; Threat Hunting in DShield SIEM with ELK; .NET and PHP Brotli Fixes (CVE-2026-111497)",
+      "episode_number": 10152,
+      "date": "2026-10-27T02:55:12.000Z",
+      "audio_url": "https://traffic.libsyn.com/securitypodcast/10152.mp3",
+      "image_url": "https://isc.sans.edu/images/podcast3000.jpg",
+      "url": "https://isc.sans.edu/podcastdetail/10152",
+      "duration": "6:41",
+      "author": "Dr. Johannes B. Ullrich",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. \nSANS Stormcast Tuesday, October 27th, 2026: Apple Patches 304 Vulnerabilities Incl. Exploited CoreGraphics Flaw; Threat Hunting in DShield SIEM with ELK; .NET and PHP Brotli Fixes (CVE-2026-111497)",
+      "description": "<br/>\nIn this episode: Apple's October updates fix 304 vulnerabilities, including an already exploited CoreGraphics flaw now patched for iOS 18; a guest diary shows how to hunt for threat actors in a DShield SIEM honeypot using HTTP language preference headers in Elasticsearch; and Microsoft and PHP ship out-of-band updates for the Brotli decompression vulnerability CVE-2026-111497.<br/>\nApple Patches for October 2026: 304 Vulnerabilities Fixed<br/>\nApple released updates for all of its operating systems, fixing 304 vulnerabilities. An already exploited CoreGraphics vulnerability (CVE-2026-86950), patched in current iOS versions about a month ago, is now also fixed for iOS 18. Other notable fixes cover a malicious app accessing the camera without user permission (CVE-2026-86990) and a local attacker gaining access to Keychain items (CVE-2026-28864).<br/>\n<a href=\"https://isc.sans.edu/diary/Apple+Patches+for+October+2026/33458/\">https://isc.sans.edu/diary/Apple+Patches+for+October+2026/33458/</a><br/>\nLooking for a Language: Threat Hunting in a DShield SIEM Honeypot with ELK<br/>\nIn a guest diary, SANS.edu undergraduate intern Jeffray Spence shows how to use Elasticsearch and Kibana in the DShield SIEM (security information and event management) honeypot to hunt for threats. Filtering on HTTP language preference headers, such as Accept-Language and Accept-Charset values requesting Chinese, isolates related requests and helps identify automated scanning campaigns and the threat actors behind them.<br/>\n<a href=\"https://isc.sans.edu/diary/Looking%20for%20a%20Language%20%5BGuest%20Diary%5D/33442\">https://isc.sans.edu/diary/Looking%20for%20a%20Language%20%5BGuest%20Diary%5D/33442</a><br/>\nMore Brotli Updates: .NET Out-of-Band Patch and PHP Windows Builds (CVE-2026-111497)<br/>\nMicrosoft released out-of-band security updates for .NET 8, 9 and 10 and .NET 11 Release Candidate 3 to fix CVE-2026-111497, a buffer overflow in Brotli decompression. PHP rebuilt its Windows binaries with the updated Brotli library without changing the PHP version number, so compare hashes to confirm you run the fixed build. Expect more vendors to release Brotli fixes over the next few weeks.<br/>\n<a href=\"https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/\">https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/</a><br/>\n<a href=\"https://www.php.net/archive/2026.php#2026-10-26-1\">https://www.php.net/archive/2026.php#2026-10-26-1</a><br/>\n    My Upcoming Classes<br/>\n    <a href=\"https://www.sans.org/profiles/dr-johannes-ullrich\">https://www.sans.org/profiles/dr-johannes-ullrich</a><br/>"
+    },
+    {
       "id": "20261026-maartenvanrossem-ep1174",
       "provider": "maartenvanrossem",
       "title": "Trump wankelt, maar zijn gevaarlijkste zet komt nog",
@@ -160750,7 +160834,7 @@
     }
   ],
   "metadata": {
-    "total_episodes": 11482,
+    "total_episodes": 11488,
     "total_providers": 7
   }
 }
