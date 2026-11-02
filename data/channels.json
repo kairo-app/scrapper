@@ -51,9 +51,9 @@
       "author": "NRC",
       "website": "https://art19.com/shows/vandaag",
       "rss_url": "https://rss.art19.com/vandaag",
-      "image_url": "https://content.production.cdn.art19.com/images/2e/d0/18/ab/2ed018ab-e157-4212-9f27-910ee353f0e1/91502b4bd0fde49ef44f4d5a3d8bc772ebc052dc6a2a3fea3f1473035e78fa243366aaf45d3376d959c28075262335c58da6cf79c1cf6890be2ee46354818675.jpeg",
+      "image_url": "https://content.production.cdn.art19.com/images/da/45/3e/8b/da453e8b-41c3-41c1-b20e-54b31cd67e4a/47079f5e992f4d6ae536e687a85c81368cb2f9295e19750fb9d7294f02307457151b1f02d7ce9be79b92d822d1a16b74c9b3346328d4c37e63250c765199f11a.jpeg",
       "language": "nl",
-      "total_episodes": 2085
+      "total_episodes": 2086
     },
     {
       "id": "sansstormcast",
@@ -64,7 +64,7 @@
       "rss_url": "https://isc.sans.edu/dailypodcast.xml",
       "image_url": "https://isc.sans.edu/images/podcast3000.jpg",
       "language": "en-us",
-      "total_episodes": 2514
+      "total_episodes": 2515
     },
     {
       "id": "thedaily",
@@ -75,7 +75,7 @@
       "rss_url": "https://feeds.simplecast.com/54nAGcIl",
       "image_url": "https://image.simplecastcdn.com/images/7f2f4c05-9c2f-4deb-82b7-b538062bc22d/73549bf1-94b3-40ff-8aeb-b4054848ec1b/3000x3000/the-daily-album-art-original.jpg?aid=rss_feed",
       "language": "en",
-      "total_episodes": 3023
+      "total_episodes": 3024
     }
   ],
   "metadata": {
