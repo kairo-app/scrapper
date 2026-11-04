@@ -1,6 +1,76 @@
 {
   "episodes": [
     {
+      "id": "20261104-sansstormcast-ep10164",
+      "provider": "sansstormcast",
+      "title": "SANS Stormcast Wednesday, November 4th, 2026: Refrigerator Defrost Attacks; Siemens SIMATIC Node-RED Exploited (CVE-2026-58115); cPGuard Update Channel Compromise; iPhone Lockdown Mode AirDrop Exploit",
+      "episode_number": 10164,
+      "date": "2026-11-04T02:10:02.000Z",
+      "audio_url": "https://traffic.libsyn.com/securitypodcast/10164.mp3",
+      "image_url": "https://isc.sans.edu/images/podcast3000.jpg",
+      "url": "https://isc.sans.edu/podcastdetail/10164",
+      "duration": "5:51",
+      "author": "Dr. Johannes B. Ullrich",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. \nSANS Stormcast Wednesday, November 4th, 2026: Refrigerator Defrost Attacks; Siemens SIMATIC Node-RED Exploited (CVE-2026-58115); cPGuard Update Channel Compromise; iPhone Lockdown Mode AirDrop Exploit",
+      "description": "<br/>\nToday's episode covers attacks that switch supermarket and military commissary freezers into defrost mode, active exploitation of the Node-RED flaw in Siemens SIMATIC IoT2050 devices, the compromised cPGuard anti-malware update channel, and Calif's iPhone exploit that works despite Lockdown Mode.<br/>\nRefrigerator Exploits: Hacked Freezers Switched to Defrost Mode<br/>\nAttackers have hit refrigeration controllers at hundreds of supermarkets in France and several other European countries, and U.S. investigators are treating August freezer failures at U.S. military commissaries as a suspected cyberattack. The attackers switch freezers into defrost mode, heating them to about 50 C (122 F) and spoiling the food. How the systems were breached is still unclear, though weak default passwords on internet-exposed controllers have been reported.<br/>\nTo help build a honeypot that emulates these devices, please contact me at jullrich-at-sans.edu if you can provide access to one of these refrigeration controllers.<br/>\n<a href=\"https://blog.claroty.com/blog/france-supermarket-hacks-expose-risks-of-internet-facing-refrigeration-systems\">https://blog.claroty.com/blog/france-supermarket-hacks-expose-risks-of-internet-facing-refrigeration-systems</a><br/>\n<a href=\"https://www.bbc.com/news/articles/cq1kd1nee80eo\">https://www.bbc.com/news/articles/cq1kd1nee80eo</a><br/>\nExploitation Targeting Node-RED on Siemens SIMATIC IoT2050 (CVE-2026-58115)<br/>\nVulnCheck caught attackers exploiting CVE-2026-58115, a missing authentication flaw (CVSS 10.0) in the Node-RED admin interface of Siemens SIMATIC IoT2050 Advanced industrial devices, to deploy flows that use wget or curl to download a Linux bot. Siemens patched the flaw in August with version 4.3.4.1. Update, or uninstall or harden Node-RED, and keep industrial control systems (ICS) off the internet.<br/>\n<a href=\"https://www.vulncheck.com/blog/exploitation-targeting-node-red\">https://www.vulncheck.com/blog/exploitation-targeting-node-red</a><br/>\n<a href=\"https://cert-portal.siemens.com/productcert/html/ssa-834709.html\">https://cert-portal.siemens.com/productcert/html/ssa-834709.html</a><br/>\ncPGuard Security Advisory: Update Channel Compromise<br/>\nOPSSHIELD says an attacker used stolen credentials to access the update servers for cPGuard, its anti-malware product for cPanel and shared hosting servers. On November 2, cPGuard versions 5.88.12 through 5.88.19 delivered a malicious script that collected /etc/shadow, MySQL configuration, root shell history, and SSH files. Update to 5.88.25 or later, check the install log for affected versions, rotate credentials, and review the indicators of compromise in the advisory.<br/>\n<a href=\"https://opsshield.com/notice/cpguard-update-channel-compromise.html\">https://opsshield.com/notice/cpguard-update-channel-compromise.html</a><br/>\niPhone 18 Pro Exploited via AirDrop with Lockdown Mode Enabled<br/>\nSecurity firm Calif released a video showing an iPhone 18 Pro with Lockdown Mode enabled being fully compromised after the user accepted a malicious PDF sent via AirDrop. Calif has not published technical details, so users who rely on Lockdown Mode should not accept unexpected AirDrop files.<br/>\n<a href=\"https://x.com/calif_io/status/2117720348322144733\">https://x.com/calif_io/status/2117720348322144733</a><br/>\n<a href=\"https://www.macrumors.com/2026/11/03/iphone-jailbreak-lockdown-mode/\">https://www.macrumors.com/2026/11/03/iphone-jailbreak-lockdown-mode/</a><br/>\nVote in the SANS Difference Makers Awards<br/>\n<a href=\"https://www.sans.org/go/difference-makers-awards-2026\">https://www.sans.org/go/difference-makers-awards-2026</a><br/>\nMy Upcoming Classes<br/>\n<a href=\"https://www.sans.org/profiles/dr-johannes-ullrich\">https://www.sans.org/profiles/dr-johannes-ullrich</a><br/>"
+    },
+    {
+      "id": "20261103-maartenvanrossem-ep1180",
+      "provider": "maartenvanrossem",
+      "title": "De midterms krijgen een onverwachte wending",
+      "episode_number": 1180,
+      "date": "2026-11-03T15:45:11.000Z",
+      "audio_url": "https://traffic.megaphone.fm/APO8905443185.mp3",
+      "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5567033/5567033-1793720662091-f4e708a8f06b4.jpg",
+      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/De-midterms-krijgen-een-onverwachte-wending-e3rlr2h",
+      "duration": "00:31:50",
+      "author": "Tom Jessen en Maarten van Rossem",
+      "summary": "De midterms vandaag zijn meer dan een tussentijdse beoordeling van Donald Trump. Ze leggen ook de kwetsbaarheden van het Amerikaanse politieke systeem bloot. En de gevolgen daarvan reiken mogelijk verder dan de verkiezingsuitslag.⁠Doe een kleine donatie🎧 Meer horen:- College Donald Trump🔔 Meer van ons:- Instagram- Website / Nieuwsbrief- Substack - WhatsApp-groep",
+      "description": "<p>De midterms vandaag zijn meer dan een tussentijdse beoordeling van Donald Trump. Ze leggen ook de kwetsbaarheden van het Amerikaanse politieke systeem bloot. En de gevolgen daarvan reiken mogelijk verder dan de verkiezingsuitslag.</p><p><a href=\"https://www.maartendepodcast.nl/doneer/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">⁠Doe een kleine donatie</a></p><p>🎧 Meer horen:</p><p>- <a href=\"https://www.maartendepodcast.nl/product/waarom-blijven-mensen-vallen-voor-trump/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">College Donald Trump</a></p><p>🔔 Meer van ons:</p><p>- <a href=\"https://www.instagram.com/maartentom/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Instagram</a></p><p>- <a href=\"https://www.maartendepodcast.nl/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Website</a> / <a href=\"https://www.maartendepodcast.nl/nieuwsbrief/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Nieuwsbrief</a></p><p>- <a href=\"https://maartentom.substack.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Substack</a> </p><p>- <a href=\"https://bit.ly/43vMnw4\" target=\"_blank\" rel=\"ugc noopener noreferrer\">WhatsApp-groep</a></p>"
+    },
+    {
+      "id": "20261103-dedag-epunknown",
+      "provider": "dedag",
+      "title": "Wikipedianen in tijden van AI",
+      "episode_number": null,
+      "date": "2026-11-03T13:50:00.000Z",
+      "audio_url": "https://podcast.npo.nl/file/de-dag/147710/wikipedianen-in-tijden-van-ai.mp3?awCollectionid=feed-123-de-dag&amp;awEpisodeid=feed-123-de-dag_episode-147710-WO_NOS_20371207",
+      "image_url": "https://podcast.npo.nl/data/thumb/de-dag.1400.8585e6e74b55200e4a654eef337073d5.jpg",
+      "url": "https://podcast.npo.nl/file/de-dag/147710/wikipedianen-in-tijden-van-ai.mp3?awCollectionid=feed-123-de-dag&awEpisodeid=feed-123-de-dag_episode-147710-WO_NOS_20371207",
+      "duration": "00:23:19",
+      "author": "",
+      "summary": "Elke seconde worden zo'n 10.000 Wikipedia-pagina's gelezen. De online encyclopedie bestaat 25 jaar en trekt enorm veel mensen, maar door de opkomst van AI loopt dat wel terug. \n\nWikipedia wordt bijgehouden door vrijwilligers. In deze podcast vertellen twee van hen, Hay Kranen en Stella van Ginkel, hoe een Wikipediaan in 2026 te werk gaat. Hoe krijg je de encyclopedie zo compleet mogelijk? Hoe inspireer je anderen om te gaan schrijven, en begeleid je ze daarbij? En hoe voelt het als de artikelen waar je je ziel en zaligheid in hebt gestopt, worden opgeslurpt door AI-bots die ze uitserveren in hun eigen programma?\n\nPresentatie en montage: Dieuwke Teertstra\n\nRedactie: Max Smedes en IJsbrand Terpstra\n\nEindredactie: Judith van de Hulsbeek",
+      "description": "Elke seconde worden zo'n 10.000 Wikipedia-pagina's gelezen. De online encyclopedie bestaat 25 jaar en trekt enorm veel mensen, maar door de opkomst van AI loopt dat wel terug. \n\nWikipedia wordt bijgehouden door vrijwilligers. In deze podcast vertellen twee van hen, Hay Kranen en Stella van Ginkel, hoe een Wikipediaan in 2026 te werk gaat. Hoe krijg je de encyclopedie zo compleet mogelijk? Hoe inspireer je anderen om te gaan schrijven, en begeleid je ze daarbij? En hoe voelt het als de artikelen waar je je ziel en zaligheid in hebt gestopt, worden opgeslurpt door AI-bots die ze uitserveren in hun eigen programma?\n\nPresentatie en montage: Dieuwke Teertstra\n\nRedactie: Max Smedes en IJsbrand Terpstra\n\nEindredactie: Judith van de Hulsbeek"
+    },
+    {
+      "id": "20261103-thedaily-epunknown",
+      "provider": "thedaily",
+      "title": "A Guide to Election Night 2026",
+      "episode_number": null,
+      "date": "2026-11-03T10:45:00.000Z",
+      "audio_url": "https://tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/7269d6cb-724a-4375-8898-e4be357e5108/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=7269d6cb-724a-4375-8898-e4be357e5108&feed=54nAGcIl",
+      "image_url": "https://image.simplecastcdn.com/images/34e5431c-f7f7-4edd-9b5d-0277e197a71b/c220be01-49a1-453d-bd15-cad601ca4138/3000x3000/03thedaily_applespotify_11.jpg?aid=rss_feed",
+      "url": "https://www.nytimes.com/the-daily",
+      "duration": "00:35:17",
+      "author": "The New York Times",
+      "summary": "Strategists in both parties say Democrats are likely to wrest back control of the House, but the battle for the Senate is more complicated.",
+      "description": "<p>After two years of campaigning, the 2026 midterm election is now in the hands of the American voters.</p><p>As the ballot counting begins, Nate Cohn, the chief political analyst for The New York Times, offers a guide for how to understand the results.</p><p>Guest: <a href=\"https://www.nytimes.com/by/nate-cohn\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Nate Cohn</strong></a>, the chief political analyst for The New York Times.</p><p>Background reading:&nbsp;</p><ul><li>Here are <a href=\"https://www.nytimes.com/2026/10/29/upshot/midterm-elections-senate-house-scenarios.html\" target=\"_blank\" rel=\"noopener noreferrer\">four scenarios</a> for how the midterms could go.</li><li><a href=\"https://www.nytimes.com/2026/11/01/upshot/poll-times-siena-senate-midterms.html\" target=\"_blank\" rel=\"noopener noreferrer\">The final polls show a blue surge</a>. Can we trust them?</li><li><a href=\"https://www.nytimes.com/2026/11/02/us/politics/midterms-election-2026-senate-house-congress.html\" target=\"_blank\" rel=\"noopener noreferrer\">Here’s what to know</a> about the fight for Congress.</li></ul><p>Photo: Erin Schaff/The New York Times</p>\n<p><p>For more information on today’s episode, visit <a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday. </p><p> </p><p>Subscribe today at <a href=\"http://nytimes.com/podcasts\">nytimes.com/podcasts</a> or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here <a href=\"https://www.nytimes.com/activate-access/audio?source=podcatcher\">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><br/> <p>Hosted by Simplecast, an AdsWizz company. See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>"
+    },
+    {
+      "id": "20261103-darknetdiaries-ep182",
+      "provider": "darknetdiaries",
+      "title": "182: Blackshades",
+      "episode_number": 182,
+      "date": "2026-11-03T08:00:00.000Z",
+      "audio_url": "https://dovetail.prxu.org/7057/c0abbff3-ae98-4e23-a389-5ee0fd824f51/darknet-diaries-ep182-blackshades.mp3",
+      "image_url": "https://f.prxu.org/7057/c0abbff3-ae98-4e23-a389-5ee0fd824f51/images/2a7a8a4b-7f32-4d33-8c82-f624ac181eeb/Ep182_BlackshadesSquare.jpg",
+      "url": "https://darknetdiaries.com/episode/182/",
+      "duration": "39:17",
+      "author": "Jack Rhysider",
+      "summary": "What if you got infected by a friend who wanted to spy on you? This is the story of how BlackShades spread to more than half a million machines, and 97 people got arrested.\n\nSponsors\nSupport for this show comes from Drata. Drata is the trust management platform that uses AI-driven automation to modernize governance, risk, and compliance, helping thousands of businesses stay audit-ready and scale securely. Learn more at drata.com/darknetdiaries.\n\nSupport for this show comes from Ramp. Ramp is a financial operations platform bringing spending visibility and control to AI. With Ramp, you can see spending across AI providers and set real-time controls and guardrails by team and model. Stop guessing where your AI spend is going. Get started with Ramp. Learn more at ramp.com/darknet.\n\nSupport for this show comes from ThreatLocker. ThreatLocker is a Zero Trust Platform that gives organizations control over what can run and what users and devices can access. It combines prevention with real time detection and automated response, helping security teams stop unauthorized activity and quickly contain compromised machines. Learn how ThreatLocker can strengthen your defenses at threatlocker.com/Darknet\n\nView all active sponsors.\n\nSources\nFull list of sources on the show page: https://darknetdiaries.com/episode/182/",
+      "description": "<p>What if you got infected by a friend who wanted to spy on you? This is the story of how BlackShades spread to more than half a million machines, and 97 people got arrested.<br><br></p><h3>Sponsors</h3><p>Support for this show comes from <a href=\"https://drata.com/darknetdiaries\"><strong>Drata</strong></a>. Drata is the trust management platform that uses AI-driven automation to modernize governance, risk, and compliance, helping thousands of businesses stay audit-ready and scale securely. Learn more at <a href=\"https://drata.com/darknetdiaries\"><strong>drata.com/darknetdiaries</strong></a>.<br><br>Support for this show comes from <a href=\"https://ramp.com/darknet\"><strong>Ramp</strong></a>. Ramp is a financial operations platform bringing spending visibility and control to AI. With Ramp, you can see spending across AI providers and set real-time controls and guardrails by team and model. Stop guessing where your AI spend is going. Get started with Ramp. Learn more at <a href=\"https://ramp.com/darknet\"><strong>ramp.com/darknet</strong></a>.<br><br>Support for this show comes from <a href=\"https://threatlocker.com/Darknet\"><strong>ThreatLocker</strong></a>. ThreatLocker is a Zero Trust Platform that gives organizations control over what can run and what users and devices can access. It combines prevention with real time detection and automated response, helping security teams stop unauthorized activity and quickly contain compromised machines. Learn how ThreatLocker can strengthen your defenses at <a href=\"https://threatlocker.com/Darknet\"><strong>threatlocker.com/Darknet</strong></a><br><br><a href=\"https://darknetdiaries.com/sponsors/\"><strong>View all active sponsors.</strong></a><br><br></p><h3>Sources</h3><p>Full list of sources on the show page: <a href=\"https://darknetdiaries.com/episode/182/\"><strong>https://darknetdiaries.com/episode/182/</strong></a></p>"
+    },
+    {
       "id": "20261103-nrcvandaag-epunknown",
       "provider": "nrcvandaag",
       "title": "Midterms: hoe een Texaanse prediker Trump vleugellam kan maken",
@@ -381,7 +451,7 @@
     {
       "id": "20261028-nrcvandaag-epunknown",
       "provider": "nrcvandaag",
-      "title": "Kan door AI iedereen nu hacken?",
+      "title": "Door AI kan nu bijna iedereen hacken",
       "episode_number": null,
       "date": "2026-10-28T04:00:00.000Z",
       "audio_url": "https://rss.art19.com/episodes/a0a92a69-47c2-49a7-9f8e-dfba54857315.mp3?rss_browser=BAhJIgtTYWZhcmkGOgZFVA%3D%3D--e8daa48e4e049c2293a0ad1663b4a762c475e386",
@@ -161226,7 +161296,7 @@
     }
   ],
   "metadata": {
-    "total_episodes": 11516,
+    "total_episodes": 11521,
     "total_providers": 7
   }
 }
