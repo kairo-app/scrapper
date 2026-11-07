@@ -20,7 +20,7 @@
       "rss_url": "https://podcast.npo.nl/feed/de-dag.xml",
       "image_url": "https://podcast.npo.nl/data/thumb/de-dag.1400.8585e6e74b55200e4a654eef337073d5.jpg",
       "language": "nl-nl",
-      "total_episodes": 2364
+      "total_episodes": 2365
     },
     {
       "id": "hardfork",
@@ -31,7 +31,7 @@
       "rss_url": "https://feeds.simplecast.com/l2i9YnTd",
       "image_url": "https://image.simplecastcdn.com/images/4105a47a-42e5-4ccc-887a-832af7989986/23965394-f5e4-4fdb-b150-639f4910353e/3000x3000/nyt-hf-album-art-3000-2.jpg?aid=rss_feed",
       "language": "en",
-      "total_episodes": 222
+      "total_episodes": 223
     },
     {
       "id": "maartenvanrossem",
@@ -42,7 +42,7 @@
       "rss_url": "https://anchor.fm/s/21c734c4/podcast/rss",
       "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/5567033/5567033-1682276210669-9c8c45b803bd.jpg",
       "language": "nl",
-      "total_episodes": 1212
+      "total_episodes": 1213
     },
     {
       "id": "nrcvandaag",
@@ -53,7 +53,7 @@
       "rss_url": "https://rss.art19.com/vandaag",
       "image_url": "https://content.production.cdn.art19.com/images/da/45/3e/8b/da453e8b-41c3-41c1-b20e-54b31cd67e4a/47079f5e992f4d6ae536e687a85c81368cb2f9295e19750fb9d7294f02307457151b1f02d7ce9be79b92d822d1a16b74c9b3346328d4c37e63250c765199f11a.jpeg",
       "language": "nl",
-      "total_episodes": 2094
+      "total_episodes": 2096
     },
     {
       "id": "sansstormcast",
@@ -75,7 +75,7 @@
       "rss_url": "https://feeds.simplecast.com/54nAGcIl",
       "image_url": "https://image.simplecastcdn.com/images/7f2f4c05-9c2f-4deb-82b7-b538062bc22d/73549bf1-94b3-40ff-8aeb-b4054848ec1b/3000x3000/the-daily-album-art-original.jpg?aid=rss_feed",
       "language": "en",
-      "total_episodes": 3028
+      "total_episodes": 3029
     }
   ],
   "metadata": {
