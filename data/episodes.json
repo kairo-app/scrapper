@@ -1,6 +1,90 @@
 {
   "episodes": [
     {
+      "id": "20261112-nrcvandaag-epunknown",
+      "provider": "nrcvandaag",
+      "title": "De VVD twijfelt openlijk aan de toekomst van het kabinet",
+      "episode_number": null,
+      "date": "2026-11-12T04:00:00.000Z",
+      "audio_url": "https://rss.art19.com/episodes/46475062-c148-48ee-b04f-166139e45e14.mp3?rss_browser=BAhJIgtTYWZhcmkGOgZFVA%3D%3D--e8daa48e4e049c2293a0ad1663b4a762c475e386",
+      "image_url": "https://content.production.cdn.art19.com/images/da/45/3e/8b/da453e8b-41c3-41c1-b20e-54b31cd67e4a/47079f5e992f4d6ae536e687a85c81368cb2f9295e19750fb9d7294f02307457151b1f02d7ce9be79b92d822d1a16b74c9b3346328d4c37e63250c765199f11a.jpeg",
+      "url": "",
+      "duration": "00:18:48",
+      "author": "",
+      "summary": "De belastingdeal die het kabinet weer op scherp zet.",
+      "description": "<p>D66 en CDA sloten woensdag een deal met de linkse oppositie over het Belastingplan. Op eigen houtje, zónder coalitiepartner VVD. De VVD reageert woedend en trekt het voortbestaan van de coalitie in twijfel. Vandaag volgt een cruciaal debat. Betekent dit het einde van het minderheidskabinet?</p><p><br></p><p><em>Gast: Pim van den Dool</em></p><p><em>Presentatie: Iddo Havinga</em></p><p><em>Redactie: Ilse Eshuis, Tessa Colen &amp; Fitria Jelyta</em></p><p><em>Montage: Bauke Wubs</em></p><p><em>Eindredactie: Tessa Colen</em></p><p><em>Coördinatie: Ilse Eshuis</em></p><p><em>Productie: Rhea Stroink</em></p><p><br></p><p><em>Heb je vragen, suggesties of ideeën over onze journalistiek? Mail dan naar onze redactie via podcast@nrc.nl.</em></p><p><br></p><p>Zie het privacybeleid op <a href=\"https://art19.com/privacy\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy</a> en de privacyverklaring van Californië op <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>"
+    },
+    {
+      "id": "20261112-sansstormcast-ep10176",
+      "provider": "sansstormcast",
+      "title": "SANS Stormcast Thursday, November 12th, 2026: Apache mod_http2 RCE (CVE-2026-119618); Fortinet FortiMail Criticals; Ivanti EPM SQLi (CVE-2026-121653); Windows SignDrop CLFS; N-able N-central HF2",
+      "episode_number": 10176,
+      "date": "2026-11-12T02:00:02.000Z",
+      "audio_url": "https://traffic.libsyn.com/securitypodcast/10176.mp3",
+      "image_url": "https://isc.sans.edu/images/podcast3000.jpg",
+      "url": "https://isc.sans.edu/podcastdetail/10176",
+      "duration": "6:09",
+      "author": "Dr. Johannes B. Ullrich",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. \nSANS Stormcast Thursday, November 12th, 2026: Apache mod_http2 RCE (CVE-2026-119618); Fortinet FortiMail Criticals; Ivanti EPM SQLi (CVE-2026-121653); Windows SignDrop CLFS; N-able N-central HF2",
+      "description": "<br/>\nThis episode covers leftover Patch Tuesday issues: a critical remote code execution flaw in Apache HTTP Server's mod_http2 module (CVE-2026-119618), Fortinet's 89 advisories with 17 critical vulnerabilities especially in FortiMail, Ivanti's November 2026 update including an Endpoint Manager SQL injection and a Cloud Services Application certificate issue, an unpatched Windows Common Log File System privilege escalation called SignDrop, and N-able's N-central 2026.4 Hotfix 2.<br/>\nApache HTTP Server mod_http2 Remote Code Execution (CVE-2026-119618)<br/>\nApache released HTTP Server 2.4.71, fixing a critical heap overflow in the mod_http2 assign_headers function that can lead to remote code execution. No public working exploit is available yet; disabling HTTP/2 can mitigate the issue, but proxies that translate to HTTP/2 still need to watch for HTTP request smuggling.<br/>\n<a href=\"https://httpd.apache.org/security/vulnerabilities_24.html\">https://httpd.apache.org/security/vulnerabilities_24.html</a><br/>\nFortinet November Advisories<br/>\nFortinet published 89 advisories addressing more than 100 vulnerabilities across its product portfolio, including 17 rated critical. FortiMail received the most critical fixes, and several of the critical issues may allow unauthenticated arbitrary code execution. Fortinet used AI as part of the vulnerability discovery work behind this release.<br/>\n<a href=\"https://www.fortiguard.com/psirt\">https://www.fortiguard.com/psirt</a><br/>\nIvanti November 2026 Security Update<br/>\nIvanti's November 2026 security update includes a SQL injection in Endpoint Manager (EPM) that may be leveraged for remote code execution, tracked as CVE-2026-121653, and a vulnerability in Ivanti Cloud Services Application (CSA) that allowed unauthenticated alteration of trusted EPM Core certificates (CVE-2026-121683).<br/>\n<a href=\"https://www.ivanti.com/blog/november-2026-security-update\">https://www.ivanti.com/blog/november-2026-security-update</a><br/>\nWindows SignDrop CLFS Privilege Escalation<br/>\nResearcher Nightmare Eclipse (MSNightmare) released SignDrop, a local privilege escalation in the Windows Common Log File System (CLFS) that abuses the HMAC-based log-file authentication Microsoft added about a year ago, along with symlink and timing tricks. A regular user can escalate to SYSTEM on Windows 11 26H2 and Windows Server 2025. A proof-of-concept is on GitHub; Microsoft has not confirmed the issue, there is no CVE, and disabling CLFS log authentication is not a recommended workaround because it would restore older CLFS attacks.<br/>\n<a href=\"https://github.com/MSNightmare/SignDrop\">https://github.com/MSNightmare/SignDrop</a><br/>\nN-able N-central 2026.4 Hotfix 2<br/>\nN-able has released N-central 2026.4 Hotfix 2, and the release notes identify three CVE numbers addressed in the update, after N-able earlier shut down its hosted infrastructure in response to the reported vulnerabilities. The initial public reports described around 30 vulnerabilities, and attackers are already probing leaked paths. Shadowserver's count of exposed N-central servers dropped from about 1,338 to around 148. On-premises operators should apply the hotfix before bringing a server back online and still avoid exposing it if possible.<br/>\n<a href=\"https://status.n-able.com/2026/11/10/n-central-2026-4-hf2-release-notes/\">https://status.n-able.com/2026/11/10/n-central-2026-4-hf2-release-notes/</a><br/>\nMy Upcoming Classes<br/>\n<a href=\"https://www.sans.org/profiles/dr-johannes-ullrich\">https://www.sans.org/profiles/dr-johannes-ullrich</a><br/>"
+    },
+    {
+      "id": "20261111-maartenvanrossem-ep1187",
+      "provider": "maartenvanrossem",
+      "title": "Het ultieme wapen van de Democraten tegen Trump",
+      "episode_number": 1187,
+      "date": "2026-11-11T16:54:50.000Z",
+      "audio_url": "https://traffic.megaphone.fm/APO9768058780.mp3",
+      "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5567033/5567033-1794415995250-68542498e79e6.jpg",
+      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/Het-ultieme-wapen-van-de-Democraten-tegen-Trump-e3s7bjg",
+      "duration": "00:30:18",
+      "author": "Tom Jessen en Maarten van Rossem",
+      "summary": "Door de winst bij de midterms krijgen de Democraten het ultieme middel in handen om Trump aan te pakken. Maar hoe ver kunnen ze daarin gaan zonder hun eigen politieke agenda onderuit te halen?⁠Doe een kleine donatie🎧 Meer horen:- College Amerika 250 jaar🔔 Meer van ons:- Instagram- Website / Nieuwsbrief- Substack - WhatsApp-groep",
+      "description": "<p>Door de winst bij de midterms krijgen de Democraten het ultieme middel in handen om Trump aan te pakken. Maar hoe ver kunnen ze daarin gaan zonder hun eigen politieke agenda onderuit te halen?</p><p><a href=\"https://www.maartendepodcast.nl/doneer/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">⁠Doe een kleine donatie</a></p><p>🎧 Meer horen:</p><p>- <a href=\"https://www.maartendepodcast.nl/product/250-jaar-amerika/\" target=\"_blank\" rel=\"noopener noreferer\">College Amerika 250 jaar</a></p><p>🔔 Meer van ons:</p><p>- <a href=\"https://www.instagram.com/maartentom/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Instagram</a></p><p>- <a href=\"https://www.maartendepodcast.nl/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Website</a> / <a href=\"https://www.maartendepodcast.nl/nieuwsbrief/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Nieuwsbrief</a></p><p>- <a href=\"https://maartentom.substack.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Substack</a> </p><p>- <a href=\"https://bit.ly/43vMnw4\" target=\"_blank\" rel=\"ugc noopener noreferrer\">WhatsApp-groep</a></p>"
+    },
+    {
+      "id": "20261111-dedag-epunknown",
+      "provider": "dedag",
+      "title": "Oproep: vragen voor correspondent Rolien Creton",
+      "episode_number": null,
+      "date": "2026-11-11T12:40:00.000Z",
+      "audio_url": "https://podcast.npo.nl/file/de-dag/148034/oproep-vragen-voor-correspondent-rolien-creton.mp3?awCollectionid=feed-123-de-dag&amp;awEpisodeid=feed-123-de-dag_episode-148034-WO_NOS_20373031",
+      "image_url": "https://podcast.npo.nl/data/thumb/de-dag.1400.8585e6e74b55200e4a654eef337073d5.jpg",
+      "url": "https://podcast.npo.nl/file/de-dag/148034/oproep-vragen-voor-correspondent-rolien-creton.mp3?awCollectionid=feed-123-de-dag&awEpisodeid=feed-123-de-dag_episode-148034-WO_NOS_20373031",
+      "duration": "00:00:44",
+      "author": "",
+      "summary": "In onze serie 'Van onze correspondent' is deze week Rolien Creton aan de beurt. Ze is al meer dan 20 jaar correspondent in Scandinavië voor de NOS. In die rol bericht ze onder meer over haar standplaats Denemarken, maar maakt ze ook reportages in Zweden, Finland, Noorwegen, IJsland en het Arctisch gebied.  \n\nHeb je vragen voor Rolien? Stuur 'm dan vandaag, 11 november, of morgen voor 9 uur naar dedag@nos.nl. Of nog beter: spreek je vraag in en stuur die op. En wie krijg je dit weekend al antwoord op je vraag.",
+      "description": "In onze serie 'Van onze correspondent' is deze week Rolien Creton aan de beurt. Ze is al meer dan 20 jaar correspondent in Scandinavië voor de NOS. In die rol bericht ze onder meer over haar standplaats Denemarken, maar maakt ze ook reportages in Zweden, Finland, Noorwegen, IJsland en het Arctisch gebied.  \n\nHeb je vragen voor Rolien? Stuur 'm dan vandaag, 11 november, of morgen voor 9 uur naar dedag@nos.nl. Of nog beter: spreek je vraag in en stuur die op. En wie krijg je dit weekend al antwoord op je vraag."
+    },
+    {
+      "id": "20261111-thedaily-epunknown",
+      "provider": "thedaily",
+      "title": "Public Schools Have a New Crisis: Not Enough Students",
+      "episode_number": null,
+      "date": "2026-11-11T10:47:41.000Z",
+      "audio_url": "https://tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/99e149de-75d1-4f1c-8a8c-e26e47dcb648/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=99e149de-75d1-4f1c-8a8c-e26e47dcb648&feed=54nAGcIl",
+      "image_url": "https://image.simplecastcdn.com/images/47d1ad32-d8ab-4906-9066-3b0c53f2d529/e2d860e1-b9bf-426a-9e18-1eb6b26563dd/3000x3000/1thedaily_applespotify.jpg?aid=rss_feed",
+      "url": "https://www.nytimes.com/the-daily",
+      "duration": "00:48:14",
+      "author": "The New York Times",
+      "summary": "The number of students in America’s public schools is shrinking. In some cases, the declines have been so drastic that districts are facing empty classrooms, painful budget cuts and angry debates about whether to close schools.\n\nSarah Mervosh, an education reporter at The New York Times, discusses what the enrollment crisis looks like, why it’s happening and how one school district hopes to fix it.",
+      "description": "<p>The number of students in America’s public schools is shrinking. In some cases, the declines have been so drastic that districts are facing empty classrooms, painful budget cuts and angry debates about whether to close schools.</p><p>Sarah Mervosh, an education reporter at The New York Times, discusses what the enrollment crisis looks like, why it’s happening and how one school district hopes to fix it.</p><p>Guest: <a href=\"https://www.nytimes.com/by/sarah-mervosh\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Sarah Mervosh</strong></a>, an education reporter at The New York Times.</p><p>Background reading:&nbsp;</p><ul><li>American schools are facing a crisis as <a href=\"https://www.nytimes.com/2026/05/08/upshot/public-schools-enrollment-crisis.html\" target=\"_blank\" rel=\"noopener noreferrer\">the number of children drops.</a></li><li>Why U.S. test scores are in a “<a href=\"https://www.nytimes.com/2026/05/13/upshot/test-scores-school-districts-us.html\" target=\"_blank\" rel=\"noopener noreferrer\">generation-long decline</a>.”</li></ul><p>Photo: Erin Schaff/The New York Times</p><p>For more information on today’s episode, visit <a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\" rel=\"noopener noreferrer\">nytimes.com/thedaily</a>. Transcripts of each episode will be made available by the next workday.&nbsp;</p>\n<p><p>For more information on today’s episode, visit <a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday. </p><p> </p><p>Subscribe today at <a href=\"http://nytimes.com/podcasts\">nytimes.com/podcasts</a> or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here <a href=\"https://www.nytimes.com/activate-access/audio?source=podcatcher\">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><br/> <p>Hosted by Simplecast, an AdsWizz company. See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>"
+    },
+    {
+      "id": "20261111-nrcvandaag-epunknown",
+      "provider": "nrcvandaag",
+      "title": "AI pikt banen in van hoogopgeleide jongeren. Wat nu?",
+      "episode_number": null,
+      "date": "2026-11-11T04:00:00.000Z",
+      "audio_url": "https://rss.art19.com/episodes/d58de85a-c942-49c1-b60f-c809572be288.mp3?rss_browser=BAhJIgtTYWZhcmkGOgZFVA%3D%3D--e8daa48e4e049c2293a0ad1663b4a762c475e386",
+      "image_url": "https://content.production.cdn.art19.com/images/da/45/3e/8b/da453e8b-41c3-41c1-b20e-54b31cd67e4a/47079f5e992f4d6ae536e687a85c81368cb2f9295e19750fb9d7294f02307457151b1f02d7ce9be79b92d822d1a16b74c9b3346328d4c37e63250c765199f11a.jpeg",
+      "url": "",
+      "duration": "00:19:26",
+      "author": "",
+      "summary": "Opeens blijkt die studie ICT toch niet zo'n veilige keuze meer.",
+      "description": "<p>Pikt AI onze banen in? Het is een veelbesproken angst, die redacteur Wouter van Noort langzaam werkelijkheid ziet worden. Hij ziet dat het voor onder andere&nbsp;jonge ict’ers en accountants steeds lastiger wordt om een baan te vinden. Hoe moeten zij hiermee omgaan?</p><p><br></p><p><em>Gast: Wouter van Noort</em></p><p><em>Presentatie: Gabriella Adèr</em></p><p><em>Redactie:&nbsp;Henk Ruigrok van der Werven en Samme Kors</em></p><p><em>Montage:&nbsp;Jeroen Jaspers</em></p><p><em>Eindredactie: Felicia Alberding, Tessa Colen &amp; Iddo Havinga</em></p><p><em>Coördinatie: Ilse Eshuis</em></p><p><em>Productie: Rhea Stroink</em></p><p>Heb je vragen, suggesties of ideeën over onze journalistiek? Mail dan naar onze redactie via podcast@nrc.nl</p><p><em>Correctie 11 november 2026: in een eerdere versie werd abusievelijk gesproken over lagere rentes als een oorzaak van banenverlies, dit is uit de aflevering gehaald. </em></p><p>Zie het privacybeleid op <a href=\"https://art19.com/privacy\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy</a> en de privacyverklaring van Californië op <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>"
+    },
+    {
       "id": "20261111-sansstormcast-ep10174",
       "provider": "sansstormcast",
       "title": "SANS Stormcast Wednesday, November 11th, 2026: Microsoft Patch Tuesday Outlook Spoofing (CVE-2026-124194); Apple Bluetooth and iMessage Fixes; SAP NetWeaver CVSS 10s (CVE-2026-89103)",
@@ -161758,7 +161842,7 @@
     }
   ],
   "metadata": {
-    "total_episodes": 11554,
+    "total_episodes": 11560,
     "total_providers": 7
   }
 }
