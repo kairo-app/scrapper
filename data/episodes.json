@@ -1,6 +1,76 @@
 {
   "episodes": [
     {
+      "id": "20261113-sansstormcast-ep10178",
+      "provider": "sansstormcast",
+      "title": "SANS Stormcast Friday, November 13th, 2026: GPUStack Auth Bypass Scans (CVE-2026-102895); ConnectWise ScreenConnect Advisory; N-able N-central Exploits; Microsoft 365 Outage",
+      "episode_number": 10178,
+      "date": "2026-11-13T02:00:03.000Z",
+      "audio_url": "https://traffic.libsyn.com/securitypodcast/10178.mp3",
+      "image_url": "https://isc.sans.edu/images/podcast3000.jpg",
+      "url": "https://isc.sans.edu/podcastdetail/10178",
+      "duration": "6:43",
+      "author": "Dr. Johannes B. Ullrich",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. \nSANS Stormcast Friday, November 13th, 2026: GPUStack Auth Bypass Scans (CVE-2026-102895); ConnectWise ScreenConnect Advisory; N-able N-central Exploits; Microsoft 365 Outage",
+      "description": "<br/>\nThis episode covers scans for a GPUStack authentication bypass, a ConnectWise ScreenConnect security advisory, public exploits for N-able N-central, and a Microsoft 365 outage.<br/>\nGPUStack Authentication Bypass Scans (CVE-2026-102895)<br/>\nJohannes writes up scans against GPUStack, open-source software that manages clusters of GPUs for AI workloads. An attacker can spoof the X-GPUStack-Real-IP header with the loopback address to bypass authentication. A fixed version was released in July, the CVE was assigned about a week ago, and exploitation is trivial on an exposed system.<br/>\n<a href=\"https://isc.sans.edu/diary/Exploit%20Attempts%20for%20GPUStack%20Authentication%20Bypass%20%28CVE-2026-102895%29/33514\">https://isc.sans.edu/diary/Exploit%20Attempts%20for%20GPUStack%20Authentication%20Bypass%20%28CVE-2026-102895%29/33514</a><br/>\n<a href=\"https://github.com/gpustack/gpustack/security/advisories/GHSA-gj9m-f8ph-pmhr\">https://github.com/gpustack/gpustack/security/advisories/GHSA-gj9m-f8ph-pmhr</a><br/>\nConnectWise ScreenConnect Security Advisory<br/>\nConnectWise released another ScreenConnect advisory about an ongoing investigation into the compromise of some customer and partner sites. The company is looking at 400 compromised environments and has disabled a set of third-party plugins; users should update the ScreenConnect client to version 26.6.5, which also fixes a vulnerability still being used to spread malware after those compromises.<br/>\n<a href=\"https://www.connectwise.com/company/trust/advisories\">https://www.connectwise.com/company/trust/advisories</a><br/>\nN-able N-central Public Exploits<br/>\nPublic exploits are now available for at least three of the N-able N-central vulnerabilities that were disclosed last week without first notifying the vendor. The code is in a GitHub repository that Johannes has not yet verified, so treat it with caution; if you are running an exposed unpatched N-able system, upgrade immediately and assume compromise.<br/>\n<a href=\"https://github.com/MSPNightmare/CVEs/tree/main/0-Days/N-Central%20N-Able\">https://github.com/MSPNightmare/CVEs/tree/main/0-Days/N-Central%20N-Able</a><br/>\nMicrosoft 365 Downtime<br/>\nMicrosoft had a significant availability event in which large parts of Microsoft 365, including Exchange and Outlook, were unreachable, and the disruption also affected sites that rely on Microsoft 365 single sign-on, including Entra. Microsoft said it was bringing systems back online, but service was still unavailable for many Microsoft 365 Business and Enterprise users at the time of recording.<br/>\n<a href=\"https://status.cloud.microsoft/m365/\">https://status.cloud.microsoft/m365/</a><br/>\nMy Upcoming Classes<br/>\n<a href=\"https://www.sans.org/profiles/dr-johannes-ullrich\">https://www.sans.org/profiles/dr-johannes-ullrich</a><br/>"
+    },
+    {
+      "id": "20261112-hardfork-ep222",
+      "provider": "hardfork",
+      "title": "Jensen Huang Is Out at Nvidia",
+      "episode_number": 222,
+      "date": "2026-11-12T23:02:01.000Z",
+      "audio_url": "https://tracking.swap.fm/track/4jdbjyyrkqk96egqozqb/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/66354d0c-214e-4370-a0df-240d93e522f8/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=66354d0c-214e-4370-a0df-240d93e522f8&feed=l2i9YnTd",
+      "image_url": "https://image.simplecastcdn.com/images/4105a47a-42e5-4ccc-887a-832af7989986/23965394-f5e4-4fdb-b150-639f4910353e/3000x3000/nyt-hf-album-art-3000-2.jpg?aid=rss_feed",
+      "url": "https://www.nytimes.com/column/hard-fork",
+      "duration": "00:39:22",
+      "author": "The New York Times",
+      "summary": "In a shocking turn of events, Nvidia’s co-founder resigns amid multiple scandals.",
+      "description": "<p>Jensen Huang is out as chief executive of Nvidia. It’s a stunning fall for one the most powerful figures of the A.I. boom.</p><p>To make sense of it all, we’re joined by two of the reporters who’ve been leading the coverage for The New York Times, Ana Swanson and Ryan Mac, alongside Stephen Witt, the author of the Jensen Huang biography “The Thinking Machine.”</p><p>We’ll discuss how we got here, the significance of a Jensen-less Nvidia and what happens next.</p><p><strong>Guests</strong>:</p><ul><li><a href=\"https://www.nytimes.com/by/ana-swanson\" rel=\"noopener noreferrer\"><u>Ana Swanson</u></a>, a reporter at The New York Times covering international economics and trade</li><li><a href=\"https://www.nytimes.com/by/ryan-mac\" rel=\"noopener noreferrer\"><u>Ryan Mac</u></a>, a technology reporter at The New York Times covering corporate accountability</li><li><a href=\"https://stephenwitt.info/\" rel=\"noopener noreferrer\"><u>Stephen Witt</u></a>, author of “The Thinking Machine: Jensen Huang, Nvidia, and the World’s Most Coveted Microchip”</li></ul><p><strong>Additional Reading</strong>:</p><ul><li><a href=\"https://www.nytimes.com/live/2026/11/12/business/nvidia-jensen-huang-resigns\" rel=\"noopener noreferrer\"><u>Jensen Huang Resigns From Nvidia</u></a></li><li><a href=\"https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html\" rel=\"noopener noreferrer\"><u>Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him</u></a></li><li><a href=\"https://www.nytimes.com/2026/11/11/business/economy/nvidia-affair-spy-bessent-lutnick.html\" rel=\"noopener noreferrer\"><u>Trump Officials Clashed Over Megaspeed, Firm at Heart of Nvidia Affair</u></a></li><li><p><a href=\"https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html\" rel=\"noopener noreferrer\"><u>Commerce Dept. Chip Inquiry Was Halted After Nvidia Intervention</u></a></p><p>&nbsp;</p></li></ul><p>We want to hear from you. Email us at hardfork@nytimes.com. Find “Hard Fork” on <a href=\"https://www.youtube.com/hardfork\" rel=\"noopener noreferrer\"><u>YouTube</u></a> and <a href=\"https://www.tiktok.com/@hardfork\" rel=\"noopener noreferrer\"><u>TikTok</u></a>.</p><p><br><br>&nbsp;</p>\n<p><p>Subscribe today at <a href=\"http://nytimes.com/podcasts\">nytimes.com/podcasts</a> or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here <a href=\"https://www.nytimes.com/activate-access/audio?source=podcatcher\">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><br/> <p>Hosted by Simplecast, an AdsWizz company. See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>"
+    },
+    {
+      "id": "20261112-maartenvanrossem-ep1189",
+      "provider": "maartenvanrossem",
+      "title": "De VVD heeft ons dit aangedaan...",
+      "episode_number": 1189,
+      "date": "2026-11-12T15:00:01.000Z",
+      "audio_url": "https://traffic.megaphone.fm/APO9057879578.mp3",
+      "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5567033/5567033-1794478223001-571b226360087.jpg",
+      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/De-VVD-heeft-ons-dit-aangedaan-e3s8nmp",
+      "duration": "00:30:37",
+      "author": "Tom Jessen en Maarten van Rossem",
+      "summary": "Weer een politieke impasse. Weer een crisis. De gevolgen merkt u iedere dag, zonder dat u doorhebt waar ze vandaan komen.⁠Doe een kleine donatie🎧 Meer horen:- College Politieke Geschiedenis NL🔔 Meer van ons:- Instagram- Website / Nieuwsbrief- Substack - WhatsApp-groep",
+      "description": "<p>Weer een politieke impasse. Weer een crisis. De gevolgen merkt u iedere dag, zonder dat u doorhebt waar ze vandaan komen.</p><p><a href=\"https://www.maartendepodcast.nl/doneer/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">⁠Doe een kleine donatie</a></p><p>🎧 Meer horen:</p><p>- <a href=\"https://www.maartendepodcast.nl/product/college-politieke-geschiedenis-van-nederland/\" target=\"_blank\" rel=\"noopener noreferer\">College Politieke Geschiedenis NL</a></p><p>🔔 Meer van ons:</p><p>- <a href=\"https://www.instagram.com/maartentom/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Instagram</a></p><p>- <a href=\"https://www.maartendepodcast.nl/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Website</a> / <a href=\"https://www.maartendepodcast.nl/nieuwsbrief/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Nieuwsbrief</a></p><p>- <a href=\"https://maartentom.substack.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Substack</a> </p><p>- <a href=\"https://bit.ly/43vMnw4\" target=\"_blank\" rel=\"ugc noopener noreferrer\">WhatsApp-groep</a></p>"
+    },
+    {
+      "id": "20261112-dedag-epunknown",
+      "provider": "dedag",
+      "title": "De VVD in (kabinets)crisis",
+      "episode_number": null,
+      "date": "2026-11-12T13:37:00.000Z",
+      "audio_url": "https://podcast.npo.nl/file/de-dag/148105/de-vvd-in-kabinetscrisis.mp3?awCollectionid=feed-123-de-dag&amp;awEpisodeid=feed-123-de-dag_episode-148105-WO_NOS_20373343",
+      "image_url": "https://podcast.npo.nl/data/thumb/de-dag.1400.8585e6e74b55200e4a654eef337073d5.jpg",
+      "url": "https://podcast.npo.nl/file/de-dag/148105/de-vvd-in-kabinetscrisis.mp3?awCollectionid=feed-123-de-dag&awEpisodeid=feed-123-de-dag_episode-148105-WO_NOS_20373343",
+      "duration": "00:29:08",
+      "author": "",
+      "summary": "Woensdagavond net voor achten stapt VVD-leider Dilan Yesilgöz uit het ministerie van Defensie. Ze vertelt voor een groep journalisten met draaiende camera's dat ze is overvallen door het akkoord dat coalitiegenoten D66 en CDA eerder die dag sloten met oppositiepartijen Pro en Volt. Yesilgöz vindt dat er een fundamentele reset nodig is als de rest van de coalitie hiermee akkoord gaat.\n\nDe VVD worstelt al langer met hun rol in de coalitie, schetst politiek duider Nynke de Zoeten. D66 en CDA gingen er al wel vanuit dat er deals met links nodig zouden zijn in deze minderheidsconstructie, maar VVD ging niet. Maar ook de rol van de VVD leidt tot kritiek. De soloacties van minister van Financiën Eelco Heinen en starre houding in onderhandelingen zet kwaad bloed bij D66 en CDA.\n\nMaar de spanning loopt nu op over verschuivingen van belastingen van 1 miljard op een totaal van 480 miljard euro. Dat is volgens Nynke de Zoeten een hele bewuste keuze en strategie van de VVD. Waar leidt dat toe? Voor de partij? En voor de houdbaarheid van dit kabinet?\n\nReageren: mail naar dedag@nos.nl (mailto:dedag@nos.nl)\n\nPresentatie & montage: Marco Geijtenbeek\n\nRedactie: Rosanne Sies\n\nEindredactie: Rosanne Sies",
+      "description": "Woensdagavond net voor achten stapt VVD-leider Dilan Yesilgöz uit het ministerie van Defensie. Ze vertelt voor een groep journalisten met draaiende camera's dat ze is overvallen door het akkoord dat coalitiegenoten D66 en CDA eerder die dag sloten met oppositiepartijen Pro en Volt. Yesilgöz vindt dat er een fundamentele reset nodig is als de rest van de coalitie hiermee akkoord gaat.\n\nDe VVD worstelt al langer met hun rol in de coalitie, schetst politiek duider Nynke de Zoeten. D66 en CDA gingen er al wel vanuit dat er deals met links nodig zouden zijn in deze minderheidsconstructie, maar VVD ging niet. Maar ook de rol van de VVD leidt tot kritiek. De soloacties van minister van Financiën Eelco Heinen en starre houding in onderhandelingen zet kwaad bloed bij D66 en CDA.\n\nMaar de spanning loopt nu op over verschuivingen van belastingen van 1 miljard op een totaal van 480 miljard euro. Dat is volgens Nynke de Zoeten een hele bewuste keuze en strategie van de VVD. Waar leidt dat toe? Voor de partij? En voor de houdbaarheid van dit kabinet?\n\nReageren: mail naar dedag@nos.nl (mailto:dedag@nos.nl)\n\nPresentatie & montage: Marco Geijtenbeek\n\nRedactie: Rosanne Sies\n\nEindredactie: Rosanne Sies"
+    },
+    {
+      "id": "20261112-thedaily-epunknown",
+      "provider": "thedaily",
+      "title": "What Jensen Huang’s Resignation Will Mean for A.I.",
+      "episode_number": null,
+      "date": "2026-11-12T10:51:56.000Z",
+      "audio_url": "https://tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/81baedea-f263-4b69-9789-fef913b31bee/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=81baedea-f263-4b69-9789-fef913b31bee&feed=54nAGcIl",
+      "image_url": "https://image.simplecastcdn.com/images/34e5431c-f7f7-4edd-9b5d-0277e197a71b/55ae5146-48a7-426b-85c3-faebbc794f86/3000x3000/00thedaily_applespotify_57.jpg?aid=rss_feed",
+      "url": "https://www.nytimes.com/the-daily",
+      "duration": "00:24:40",
+      "author": "The New York Times",
+      "summary": "The Nvidia leader stepped down after reports that he had affairs with a subordinate and a woman who U.S. officials say is a Chinese spy.",
+      "description": "<p><i>This episode was recorded before the news of Mr. Huang’s resignation was made public.</i></p><p>Jensen Huang resigned as the chief executive of Nvidia on Thursday after The New York Times reported that he had extramarital relationships with a woman identified by U.S. officials as a Chinese spy and an executive at the company. In a memo this week, Mr. Huang admitted to being “unfaithful” to his wife.</p><p>Tripp Mickle, a tech reporter for The Times, discusses how everything unraveled for Mr. Huang and what his exit could mean for his and Nvidia’s future.</p><p>Guest: <a href=\"https://www.nytimes.com/by/tripp-mickle\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Tripp Mickle</strong></a>, a tech reporter for The New York Times.</p><p>Background reading:&nbsp;</p><ul><li><a href=\"https://www.nytimes.com/live/2026/11/12/business/nvidia-jensen-huang-resigns\" target=\"_blank\" rel=\"noopener noreferrer\">Jensen Huang resigned from Nvidia</a> after news of his affairs was made public.</li><li><a href=\"https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html\" target=\"_blank\" rel=\"noopener noreferrer\">Nvidia shares plunged</a>, shaking up tech stocks as Mr. Huang stepped down from his role.</li></ul><p>Photo: Manuel Orbegozo for The New York Times</p><p>For more information on today’s episode, visit <a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\" rel=\"noopener noreferrer\">nytimes.com/thedaily</a>. Transcripts of each episode will be made available by the next workday.&nbsp;</p>\n<p><p>For more information on today’s episode, visit <a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday. </p><p> </p><p>Subscribe today at <a href=\"http://nytimes.com/podcasts\">nytimes.com/podcasts</a> or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here <a href=\"https://www.nytimes.com/activate-access/audio?source=podcatcher\">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><br/> <p>Hosted by Simplecast, an AdsWizz company. See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>"
+    },
+    {
       "id": "20261112-nrcvandaag-epunknown",
       "provider": "nrcvandaag",
       "title": "De VVD twijfelt openlijk aan de toekomst van het kabinet",
@@ -45,16 +115,16 @@
     {
       "id": "20261111-dedag-epunknown",
       "provider": "dedag",
-      "title": "Oproep: vragen voor correspondent Rolien Creton",
+      "title": "Tarwekamp-slachtoffers en nabestaanden aan het woord",
       "episode_number": null,
-      "date": "2026-11-11T12:40:00.000Z",
-      "audio_url": "https://podcast.npo.nl/file/de-dag/148034/oproep-vragen-voor-correspondent-rolien-creton.mp3?awCollectionid=feed-123-de-dag&amp;awEpisodeid=feed-123-de-dag_episode-148034-WO_NOS_20373031",
+      "date": "2026-11-11T14:00:00.000Z",
+      "audio_url": "https://podcast.npo.nl/file/de-dag/148039/tarwekamp-slachtoffers-en-nabestaanden-aan-het-woord.mp3?awCollectionid=feed-123-de-dag&amp;awEpisodeid=feed-123-de-dag_episode-148039-WO_NOS_20373117",
       "image_url": "https://podcast.npo.nl/data/thumb/de-dag.1400.8585e6e74b55200e4a654eef337073d5.jpg",
-      "url": "https://podcast.npo.nl/file/de-dag/148034/oproep-vragen-voor-correspondent-rolien-creton.mp3?awCollectionid=feed-123-de-dag&awEpisodeid=feed-123-de-dag_episode-148034-WO_NOS_20373031",
-      "duration": "00:00:44",
+      "url": "https://podcast.npo.nl/file/de-dag/148039/tarwekamp-slachtoffers-en-nabestaanden-aan-het-woord.mp3?awCollectionid=feed-123-de-dag&awEpisodeid=feed-123-de-dag_episode-148039-WO_NOS_20373117",
+      "duration": "00:25:50",
       "author": "",
-      "summary": "In onze serie 'Van onze correspondent' is deze week Rolien Creton aan de beurt. Ze is al meer dan 20 jaar correspondent in Scandinavië voor de NOS. In die rol bericht ze onder meer over haar standplaats Denemarken, maar maakt ze ook reportages in Zweden, Finland, Noorwegen, IJsland en het Arctisch gebied.  \n\nHeb je vragen voor Rolien? Stuur 'm dan vandaag, 11 november, of morgen voor 9 uur naar dedag@nos.nl. Of nog beter: spreek je vraag in en stuur die op. En wie krijg je dit weekend al antwoord op je vraag.",
-      "description": "In onze serie 'Van onze correspondent' is deze week Rolien Creton aan de beurt. Ze is al meer dan 20 jaar correspondent in Scandinavië voor de NOS. In die rol bericht ze onder meer over haar standplaats Denemarken, maar maakt ze ook reportages in Zweden, Finland, Noorwegen, IJsland en het Arctisch gebied.  \n\nHeb je vragen voor Rolien? Stuur 'm dan vandaag, 11 november, of morgen voor 9 uur naar dedag@nos.nl. Of nog beter: spreek je vraag in en stuur die op. En wie krijg je dit weekend al antwoord op je vraag."
+      "summary": "Slachtoffers en nabestaanden van de explosie aan de Tarwekamp in Den Haag kwamen de afgelopen dagen aan het woord in de rechtszaal. Ze maken gebruik van hun spreekrecht om de verdachten te laten weten hoe diep de littekens zijn en de pijn is die ze elke dag voelen. Bij de Tarwekamp-explosie kwamen 6 mensen om het leven. In het midden van het appartementencomplex is nog steeds een gapend gat te zien.\n\nRechtbankverslaggever Mattijs van de Wiel was in de rechtszaal gisteren en merkte hoe diep de gevoelens van onveiligheid zijn bij de sprekers. 30 mensen vertelden over hoe de explosie hen dagelijks bezighoudt, waaronder de eigenaresse van de bruidsmodezaak waar de explosie op gericht was. Zij deed voor het eerst haar verhaal. Wat betekent dat spreekrecht voor hen? En hebben deze verhalen invloed op de straf?\n\nReageren? Mail naar dedag@nos.nl (mailto:dedag@nos.nl)\n\nPresentatie & montage: Marco Geijtenbeek\n\nRedactie: Judith van de Hulsbeek\n\nEindredactie: Rosanne Sies",
+      "description": "Slachtoffers en nabestaanden van de explosie aan de Tarwekamp in Den Haag kwamen de afgelopen dagen aan het woord in de rechtszaal. Ze maken gebruik van hun spreekrecht om de verdachten te laten weten hoe diep de littekens zijn en de pijn is die ze elke dag voelen. Bij de Tarwekamp-explosie kwamen 6 mensen om het leven. In het midden van het appartementencomplex is nog steeds een gapend gat te zien.\n\nRechtbankverslaggever Mattijs van de Wiel was in de rechtszaal gisteren en merkte hoe diep de gevoelens van onveiligheid zijn bij de sprekers. 30 mensen vertelden over hoe de explosie hen dagelijks bezighoudt, waaronder de eigenaresse van de bruidsmodezaak waar de explosie op gericht was. Zij deed voor het eerst haar verhaal. Wat betekent dat spreekrecht voor hen? En hebben deze verhalen invloed op de straf?\n\nReageren? Mail naar dedag@nos.nl (mailto:dedag@nos.nl)\n\nPresentatie & montage: Marco Geijtenbeek\n\nRedactie: Judith van de Hulsbeek\n\nEindredactie: Rosanne Sies"
     },
     {
       "id": "20261111-thedaily-epunknown",
@@ -161842,7 +161912,7 @@
     }
   ],
   "metadata": {
-    "total_episodes": 11560,
+    "total_episodes": 11565,
     "total_providers": 7
   }
 }
