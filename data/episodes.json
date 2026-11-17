@@ -1,6 +1,90 @@
 {
   "episodes": [
     {
+      "id": "20261117-nrcvandaag-epunknown",
+      "provider": "nrcvandaag",
+      "title": "Luidt GTA VI het einde van een gametijdperk in?",
+      "episode_number": null,
+      "date": "2026-11-17T04:00:00.000Z",
+      "audio_url": "https://rss.art19.com/episodes/f5f32eee-5fe2-4f0d-b112-dca44cbaf8bb.mp3?rss_browser=BAhJIgtTYWZhcmkGOgZFVA%3D%3D--e8daa48e4e049c2293a0ad1663b4a762c475e386",
+      "image_url": "https://content.production.cdn.art19.com/images/da/45/3e/8b/da453e8b-41c3-41c1-b20e-54b31cd67e4a/47079f5e992f4d6ae536e687a85c81368cb2f9295e19750fb9d7294f02307457151b1f02d7ce9be79b92d822d1a16b74c9b3346328d4c37e63250c765199f11a.jpeg",
+      "url": "",
+      "duration": "00:19:35",
+      "author": "",
+      "summary": "Het wordt de beste game in het genre ooit, maar kan daarom ook teleurstellen.",
+      "description": "<p>Al 13 jaar lang wordt er door miljoenen mensen reikhalzend naar uitgekeken: GTA VI. Gamejournalist Len Maessen legt uit waarom de hype rond het spel zo groot is en wat de lancering betekent voor de game-industrie. Kan GTA VI de hoge verwachtingen waarmaken?&nbsp;</p><p><em>Gast: Len Maessen&nbsp;</em></p><p><em>Presentatie: Gabriella Adèr&nbsp;</em></p><p><em>Redactie: Iris Verhulsdonk, Kim Bos en Rafia Karamowa&nbsp;</em></p><p><em>Montage: Lennart van Kasterop&nbsp;</em></p><p><em>Eindredactie: Iddo Havinga &amp; Tessa Colen&nbsp;</em></p><p><em>Coördinatie: Ilse Eshuis</em></p><p><em>Productie: Rhea Stroink</em></p><p><br></p><p><em>Heb je vragen, suggesties of ideeën over onze journalistiek? Mail dan naar onze redactie via podcast@nrc.nl.</em></p><p><br></p><p>Zie het privacybeleid op <a href=\"https://art19.com/privacy\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy</a> en de privacyverklaring van Californië op <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>"
+    },
+    {
+      "id": "20261117-sansstormcast-ep10182",
+      "provider": "sansstormcast",
+      "title": "SANS Stormcast Tuesday, November 17th, 2026: LiteLLM/Starlette RCE Scans (CVE-2026-42271, CVE-2026-48710); Danfoss AK-SM800A RCEs; cyrus-sasl SRP Bypass (CVE-2026-129483); NoisyTCP (CVE-2026-99288)",
+      "episode_number": 10182,
+      "date": "2026-11-17T02:05:15.000Z",
+      "audio_url": "https://traffic.libsyn.com/securitypodcast/10182.mp3",
+      "image_url": "https://isc.sans.edu/images/podcast3000.jpg",
+      "url": "https://isc.sans.edu/podcastdetail/10182",
+      "duration": "8:15",
+      "author": "Dr. Johannes B. Ullrich",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. \nSANS Stormcast Tuesday, November 17th, 2026: LiteLLM/Starlette RCE Scans (CVE-2026-42271, CVE-2026-48710); Danfoss AK-SM800A RCEs; cyrus-sasl SRP Bypass (CVE-2026-129483); NoisyTCP (CVE-2026-99288)",
+      "description": "<br/>\nInternet Storm Center honeypots are seeing LiteLLM and Starlette exploit scans, Midnight Blue found unpatched remote code execution flaws in Danfoss AK-SM800A refrigeration controllers, a Cyrus SASL Secure Remote Password bypass can allow logins without a password, and NoisyTCP is a Linux kernel TCP denial-of-service bug.<br/>\nScans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710)<br/>\nInternet Storm Center honeypots are seeing scans that chain a LiteLLM remote code execution bug in a test URL, CVE-2026-42271, with CVE-2026-48710, a Starlette Host header validation flaw that bypasses access control. Patches are available, and Horizon3.ai has a write-up of the chain.<br/>\n<a href=\"https://isc.sans.edu/diary/Scans%20for%20LiteLLM%20Starlette%20%28CVE-2026-42271%2C%20CVE-2026-48710%29/33522\">https://isc.sans.edu/diary/Scans%20for%20LiteLLM%20Starlette%20%28CVE-2026-42271%2C%20CVE-2026-48710%29/33522</a><br/>\n<a href=\"https://horizon3.ai/attack-research/vulnerabilities/cve-2026-42271-chained-with-cve-2026-48710/\">https://horizon3.ai/attack-research/vulnerabilities/cve-2026-42271-chained-with-cve-2026-48710/</a><br/>\nDanfoss AK-SM800A Remote Code Execution Vulnerabilities<br/>\nMidnight Blue found six pre-authentication remote code execution flaws, including a Host header buffer overflow, in Danfoss AK-SM800A refrigeration controllers after about an hour of manual firmware review. The devices lack standard protections such as stack canaries and address space layout randomization (ASLR), no patches are available yet, and the controllers should be kept isolated from the internet.<br/>\n<a href=\"https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a\">https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a</a><br/>\ncyrus-sasl SRP Server Authentication Bypass (CVE-2026-129483)<br/>\nA Secure Remote Password (SRP) bug in the Cyrus SASL library, often used to authenticate Internet Message Access Protocol (IMAP) and other mail services, lets an attacker log in as an existing user with no password. SRP is usually not enabled, and mail servers that offer it typically advertise the algorithm in their banner, so a quick scan can show whether it is in use.<br/>\n<a href=\"https://github.com/cyrusimap/cyrus-sasl/issues/896\">https://github.com/cyrusimap/cyrus-sasl/issues/896</a><br/>\nNoisyTCP: Linux Kernel TCP Pre-auth Remote Corruption (CVE-2026-99288)<br/>\nNoisyTCP is a Linux kernel Transmission Control Protocol (TCP) denial-of-service vulnerability that can be triggered against any listening TCP socket, with no indication that code execution is possible. A patch is in the kernel.org tree, exploitability varies from about 14 hours on a quiet bare-metal server to much faster on a virtual machine, and disabling SYN cookies is a possible emergency workaround but is not recommended as a proactive fix.<br/>\n<a href=\"https://seclists.org/oss-sec/2026/q4/715\">https://seclists.org/oss-sec/2026/q4/715</a><br/>\nMy Upcoming Classes<br/>\n<a href=\"https://www.sans.org/profiles/dr-johannes-ullrich\">https://www.sans.org/profiles/dr-johannes-ullrich</a><br/>"
+    },
+    {
+      "id": "20261116-maartenvanrossem-ep1192",
+      "provider": "maartenvanrossem",
+      "title": "Waarom de VVD het kabinet niet laat vallen",
+      "episode_number": 1192,
+      "date": "2026-11-16T15:00:00.000Z",
+      "audio_url": "https://traffic.megaphone.fm/APO2879654588.mp3",
+      "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5567033/5567033-1794830757684-7ec92e0c090c2.jpg",
+      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/Waarom-de-VVD-het-kabinet-niet-laat-vallen-e3sfnb6",
+      "duration": "00:31:57",
+      "author": "Tom Jessen en Maarten van Rossem",
+      "summary": "De politieke crisis in Den Haag flink opgeblazen. Achter de grote woorden en verontwaardiging speelt een ander spel. ⁠Doe een kleine donatie🎧 Meer horen:- College Politieke Geschiedenis NL🔔 Meer van ons:- Instagram- Website / Nieuwsbrief- Substack - WhatsApp-groep",
+      "description": "<p>De politieke crisis in Den Haag flink opgeblazen. Achter de grote woorden en verontwaardiging speelt een ander spel. </p><p><a href=\"https://www.maartendepodcast.nl/doneer/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">⁠Doe een kleine donatie</a></p><p>🎧 Meer horen:</p><p>- <a href=\"https://www.maartendepodcast.nl/product/college-politieke-geschiedenis-van-nederland/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">College Politieke Geschiedenis NL</a></p><p>🔔 Meer van ons:</p><p>- <a href=\"https://www.instagram.com/maartentom/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Instagram</a></p><p>- <a href=\"https://www.maartendepodcast.nl/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Website</a> / <a href=\"https://www.maartendepodcast.nl/nieuwsbrief/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Nieuwsbrief</a></p><p>- <a href=\"https://maartentom.substack.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Substack</a> </p><p>- <a href=\"https://bit.ly/43vMnw4\" target=\"_blank\" rel=\"ugc noopener noreferrer\">WhatsApp-groep</a></p>"
+    },
+    {
+      "id": "20261116-dedag-epunknown",
+      "provider": "dedag",
+      "title": "Opgelicht door een nepagent",
+      "episode_number": null,
+      "date": "2026-11-16T12:56:00.000Z",
+      "audio_url": "https://podcast.npo.nl/file/de-dag/148239/opgelicht-door-een-nepagent.mp3?awCollectionid=feed-123-de-dag&amp;awEpisodeid=feed-123-de-dag_episode-148239-WO_NOS_20373865",
+      "image_url": "https://podcast.npo.nl/data/thumb/de-dag.1400.8585e6e74b55200e4a654eef337073d5.jpg",
+      "url": "https://podcast.npo.nl/file/de-dag/148239/opgelicht-door-een-nepagent.mp3?awCollectionid=feed-123-de-dag&awEpisodeid=feed-123-de-dag_episode-148239-WO_NOS_20373865",
+      "duration": "00:18:44",
+      "author": "",
+      "summary": "In een paar jaar tijd is het aantal meldingen van oplichters die zich voordoen als agent geëxplodeerd. Ze worden er dankzij informatie uit datalekken ook steeds slimmer in om slachtoffers te misleiden. \n\nNepagenten richten zich vrijwel exclusief op senioren en de impact is op hen, en op hun omgeving, is enorm. In de podcast vertellen twee slachtoffers wat hen is overkomen. \n\nSybren van der Velden-Walda, landelijk projectleider senioren en veiligheid van de politie, legt uit hoe de criminelen zich organiseren. 'Dit is georganiseerde misdaad,' vertelt hij, met een criminele top die de boel aanstuurt, met callcenters en (vaak jonge) 'ophalers', die langs de deuren gaan. \n\nEn Henna Tjong-A-Hung is vrijwilliger bij de politie in Alphen aan de Rijn. Zij verleent nazorg aan mensen die zoiets hebben meegemaakt.\n\nReageren? Mail dedag@nos.nl\n\nPresentatie en montage: Elisabeth Steinz\n\nRedactie: Max Smedes\n\nEindredactie: Rosanne Sies",
+      "description": "In een paar jaar tijd is het aantal meldingen van oplichters die zich voordoen als agent geëxplodeerd. Ze worden er dankzij informatie uit datalekken ook steeds slimmer in om slachtoffers te misleiden. \n\nNepagenten richten zich vrijwel exclusief op senioren en de impact is op hen, en op hun omgeving, is enorm. In de podcast vertellen twee slachtoffers wat hen is overkomen. \n\nSybren van der Velden-Walda, landelijk projectleider senioren en veiligheid van de politie, legt uit hoe de criminelen zich organiseren. 'Dit is georganiseerde misdaad,' vertelt hij, met een criminele top die de boel aanstuurt, met callcenters en (vaak jonge) 'ophalers', die langs de deuren gaan. \n\nEn Henna Tjong-A-Hung is vrijwilliger bij de politie in Alphen aan de Rijn. Zij verleent nazorg aan mensen die zoiets hebben meegemaakt.\n\nReageren? Mail dedag@nos.nl\n\nPresentatie en montage: Elisabeth Steinz\n\nRedactie: Max Smedes\n\nEindredactie: Rosanne Sies"
+    },
+    {
+      "id": "20261116-thedaily-epunknown",
+      "provider": "thedaily",
+      "title": "Finally, a Vaccine for Cancer",
+      "episode_number": null,
+      "date": "2026-11-16T10:45:00.000Z",
+      "audio_url": "https://tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/cfacb2c0-58cc-4a37-b24f-4fe14fce220e/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=cfacb2c0-58cc-4a37-b24f-4fe14fce220e&feed=54nAGcIl",
+      "image_url": "https://image.simplecastcdn.com/images/7f2f4c05-9c2f-4deb-82b7-b538062bc22d/73549bf1-94b3-40ff-8aeb-b4054848ec1b/3000x3000/the-daily-album-art-original.jpg?aid=rss_feed",
+      "url": "https://www.nytimes.com/the-daily",
+      "duration": "00:22:38",
+      "author": "The New York Times",
+      "summary": "An experimental vaccine has been found to prevent recurrence of melanoma. Scientists hope it won’t be the last.",
+      "description": "<p>An experimental vaccine has been found to prevent recurrence of melanoma. Scientists hope it won’t be the last.&nbsp;</p><p>A new, experimental vaccine could become the first of its kind to treat cancer.</p><p>Nina Agrawal, a health reporter for The New York Times, explains how a century-old idea is finally becoming a reality and where this breakthrough could lead next.</p><p>Guest: <a href=\"https://www.nytimes.com/by/nina-agrawal\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Nina Agrawal</strong></a>, a health reporter for The New York Times.</p><p>Background reading:&nbsp;</p><ul><li><a href=\"https://www.nytimes.com/2026/10/23/well/cancer-vaccine-melanoma-study.html\" target=\"_blank\" rel=\"noopener noreferrer\">The first-of-its-kind vaccine</a> has ushered in new hope for cancer patients.</li><li><a href=\"https://www.nytimes.com/2026/10/22/well/cancer-vaccine-melanoma-merck-moderna.html\" target=\"_blank\" rel=\"noopener noreferrer\">Drug makers reported</a> that the cancer vaccine cut the risk of melanoma recurrence.</li></ul><p>Photo: Brendan Mcdermid/Reuters</p><p>For more information on today’s episode, visit&nbsp;<a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\" rel=\"noopener noreferrer\"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday.&nbsp;</p>\n<p><p>For more information on today’s episode, visit <a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday. </p><p> </p><p>Subscribe today at <a href=\"http://nytimes.com/podcasts\">nytimes.com/podcasts</a> or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here <a href=\"https://www.nytimes.com/activate-access/audio?source=podcatcher\">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><br/> <p>Hosted by Simplecast, an AdsWizz company. See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>"
+    },
+    {
+      "id": "20261116-nrcvandaag-epunknown",
+      "provider": "nrcvandaag",
+      "title": "Docu-hit ‘You Can See Everything’: het spiegelpaleis van Elizabeth Holmes",
+      "episode_number": null,
+      "date": "2026-11-16T04:00:00.000Z",
+      "audio_url": "https://rss.art19.com/episodes/275b3e77-26f3-4d7e-90fd-ca14768a483d.mp3?rss_browser=BAhJIgtTYWZhcmkGOgZFVA%3D%3D--e8daa48e4e049c2293a0ad1663b4a762c475e386",
+      "image_url": "https://content.production.cdn.art19.com/images/da/45/3e/8b/da453e8b-41c3-41c1-b20e-54b31cd67e4a/47079f5e992f4d6ae536e687a85c81368cb2f9295e19750fb9d7294f02307457151b1f02d7ce9be79b92d822d1a16b74c9b3346328d4c37e63250c765199f11a.jpeg",
+      "url": "",
+      "duration": "00:19:56",
+      "author": "",
+      "summary": "Is deze documentaire de volgende meesterzet van de veroordeelde fraudeur?",
+      "description": "<p>Het is de documentaire van het jaar: In<em> '</em>You Can See Everything'<em> </em>geeft Elizabeth Holmes, een van de grootste oplichters van de eeuw, openheid van zaken. Redacteur Stijn Bronzwaer zag de film en kwam de zaal uit met één vraag: wie bespeelt nou wie?</p><p><br></p><p><em>Gast: Stijn Bronzwaer</em></p><p><em>Presentatie: Iddo Havinga</em></p><p><em>Redactie: Annabel Ronhaar</em></p><p><em>Montage: Andy Clark</em></p><p><em>Eindredactie: Tessa Colen &amp; Iddo Havinga&nbsp;</em></p><p><em>Coördinatie: Ilse Eshuis&nbsp;</em></p><p><em>Productie: Rhea Stroink</em></p><p><br></p><p>Heb je vragen, suggesties of ideeën over onze journalistiek? Mail dan onze redactie via <a href=\"mailto:podcast@nrc.nl\" rel=\"noopener noreferrer\" target=\"_blank\">podcast@nrc.nl</a>.</p><p><br></p><p>Zie het privacybeleid op <a href=\"https://art19.com/privacy\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy</a> en de privacyverklaring van Californië op <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>"
+    },
+    {
       "id": "20261116-sansstormcast-ep10180",
       "provider": "sansstormcast",
       "title": "SANS Stormcast Monday, November 16th, 2026: Macfinger ClickFix DownTheDRAIN; Microsoft 365 Outage Phishing; Check Point PHP2Shell Exploits (CVE-2026-109618); Cursor Claude Code Extension",
@@ -17,12 +101,12 @@
     {
       "id": "20261115-maartenvanrossem-ep1191",
       "provider": "maartenvanrossem",
-      "title": "Gaza is verschrikkelijk, maar geen genocide",
+      "title": "Dit mag je eigenlijk niet zeggen over Gaza",
       "episode_number": 1191,
       "date": "2026-11-15T21:51:22.000Z",
       "audio_url": "https://traffic.megaphone.fm/APO8314887249.mp3",
       "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5567033/5567033-1794779003117-35a387c845231.jpg",
-      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/Gaza-is-verschrikkelijk--maar-geen-genocide-e3sej8j",
+      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/Dit-mag-je-eigenlijk-niet-zeggen-over-Gaza-e3sej8j",
       "duration": "00:33:25",
       "author": "Tom Jessen en Maarten van Rossem",
       "summary": "Het leed in Gaza is verschrikkelijk, maar er is geen sprake van genocide. Maarten legt uit waarom hij die conclusie trekt en zijn redenering zal ongetwijfeld discussie oproepen.⁠Doe een kleine donatie🎧 Meer horen:- College Politieke Geschiedenis NL🔔 Meer van ons:- Instagram- Website / Nieuwsbrief- Substack - WhatsApp-groep",
@@ -162094,7 +162178,7 @@
     }
   ],
   "metadata": {
-    "total_episodes": 11578,
+    "total_episodes": 11584,
     "total_providers": 7
   }
 }
