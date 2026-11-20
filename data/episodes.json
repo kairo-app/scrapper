@@ -1,6 +1,76 @@
 {
   "episodes": [
     {
+      "id": "20261120-nrcvandaag-epunknown",
+      "provider": "nrcvandaag",
+      "title": "Op de klimaattop in Turkije wijst iedereen naar elkaar",
+      "episode_number": null,
+      "date": "2026-11-20T04:00:00.000Z",
+      "audio_url": "https://rss.art19.com/episodes/2033f56d-02c4-4180-8f9b-c9d4cf6bfd52.mp3?rss_browser=BAhJIgtTYWZhcmkGOgZFVA%3D%3D--e8daa48e4e049c2293a0ad1663b4a762c475e386",
+      "image_url": "https://content.production.cdn.art19.com/images/da/45/3e/8b/da453e8b-41c3-41c1-b20e-54b31cd67e4a/47079f5e992f4d6ae536e687a85c81368cb2f9295e19750fb9d7294f02307457151b1f02d7ce9be79b92d822d1a16b74c9b3346328d4c37e63250c765199f11a.jpeg",
+      "url": "",
+      "duration": "00:18:10",
+      "author": "",
+      "summary": "Redacteur Laura Bergshoef doet verslag vanuit Antalya.",
+      "description": "<p>Terwijl de wereld afkoerst op méér dan anderhalve graad opwarming en geopolitieke spanningen oplopen, blijft krachtig leiderschap afwezig op de 31e VN-klimaattop in Turkije. Maar, ziet redacteur Laura Bergshoef, toch is deze top niet voor niets.</p><p><br></p><p><em>Gast: Laura Bergshoef&nbsp;</em></p><p><em>Presentatie: Gabriella Adèr</em></p><p><em>Redactie: David Weel &amp; Mona de Brauwer</em></p><p><em>Montage: Bas van Win&nbsp;</em></p><p><em>Eindredactie: Tessa Colen &amp; Iddo Havinga</em></p><p><em>Coördinatie: Ilse Eshuis</em></p><p><em>Productie: Rhea Stroink</em></p><p><br></p><p><em>Heb je vragen, suggesties of ideeën over onze journalistiek? Mail dan onze redactie via </em><a href=\"mailto:podcast@nrc.nl\" rel=\"noopener noreferrer\" target=\"_blank\"><em>podcast@nrc.nl</em></a></p><p><br></p><p>Zie het privacybeleid op <a href=\"https://art19.com/privacy\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy</a> en de privacyverklaring van Californië op <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>"
+    },
+    {
+      "id": "20261120-sansstormcast-ep10188",
+      "provider": "sansstormcast",
+      "title": "Honeypot Analysis as Code; PHP Patches and Session RCE (CVE-2026-126714); Dragos AI Canary Tokens; vCenter Exploit (CVE-2026-123890) (Nov 20th 2026)",
+      "episode_number": 10188,
+      "date": "2026-11-20T02:00:02.000Z",
+      "audio_url": "https://traffic.libsyn.com/securitypodcast/10188.mp3",
+      "image_url": "https://isc.sans.edu/images/podcast3000.jpg",
+      "url": "https://isc.sans.edu/podcastdetail/10188",
+      "duration": "6:19",
+      "author": "Dr. Johannes B. Ullrich",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. \nHoneypot Analysis as Code; PHP Patches and Session RCE (CVE-2026-126714); Dragos AI Canary Tokens; vCenter Exploit (CVE-2026-123890) (Nov 20th 2026)",
+      "description": "<br/>\nThis episode covers a SANS.edu intern's Git-and-pull-request workflow for AI-assisted honeypot analysis, today's PHP security updates including a session-handling remote code execution (RCE) bug, Dragos research that planted canary tokens in AI prompts, and an already exploited VMware vCenter vulnerability.<br/>\nTreat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI [Guest Diary]<br/>\nSANS.edu undergraduate intern Kevin Truong explains how he treats honeypot analysis like code, using Git and pull requests so an AI assistant can propose query and report changes while a human analyst reviews and approves them. He says the same workflow can apply to other kinds of log analysis, not just honeypots.<br/>\n<a href=\"https://isc.sans.edu/diary/33534\">https://isc.sans.edu/diary/33534</a><br/>\nPHP Vulnerabilities and Patches<br/>\nPHP released security updates in versions 8.5.13, 8.4.28, 8.3.37, and 8.2.36 that fix memory-corruption issues leading to remote code execution (RCE), including a session-handling flaw, CVE-2026-126714, that depthfirst documents as phpAfterShell. A separate moderate issue, CVE-2026-128064, can cause fopen() and similar stream functions to fetch an HTTPS or FTPS URL over plaintext when the scheme uses an uppercase S.<br/>\n<a href=\"https://www.php.net/archive/2026.php\">https://www.php.net/archive/2026.php</a><br/>\n<a href=\"https://github.com/php/php-src/security\">https://github.com/php/php-src/security</a><br/>\n<a href=\"https://depthfirst.com/research/phpaftershell\">https://depthfirst.com/research/phpaftershell</a><br/>\nSupply Chain Canaries<br/>\nHD Moore, now with Dragos, describes planting canary tokens, also called honey tokens, in prompts sent to AI services in order to see whether those secrets later leak. Dragos sent approximately two million such requests and found that at least three AI providers exposed the tokens after apparent internal compromises, that inference-marketplace proxies inspected and used some of the tokens, and that some organizations did not honor their privacy policies.<br/>\n<a href=\"https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens\">https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens</a><br/>\nVMware vCenter Exploit<br/>\nMandiant and Google Threat Intelligence report that CVE-2026-123890, an unauthenticated authentication bypass in VMware vCenter Server, is already being exploited. The bug is in the vSphere stack's Directory Service and can yield an administrator session; Broadcom released patches in advisory VMSA-2026-0009 and lists no workaround.<br/>\n<a href=\"https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere\">https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere</a><br/>\n<a href=\"https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39495\">https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39495</a><br/>\nNo Podcast Thursday and Friday<br/>\nNext week is the Thanksgiving holiday, so Stormcast will only be published Monday through Wednesday.<br/>\nMy Upcoming Classes<br/>\n<a href=\"https://www.sans.org/profiles/dr-johannes-ullrich\">https://www.sans.org/profiles/dr-johannes-ullrich</a><br/>"
+    },
+    {
+      "id": "20261119-maartenvanrossem-ep1197",
+      "provider": "maartenvanrossem",
+      "title": "De positie van Yesilgöz wordt onhoudbaar",
+      "episode_number": 1197,
+      "date": "2026-11-19T15:00:00.000Z",
+      "audio_url": "https://traffic.megaphone.fm/APO8056347351.mp3",
+      "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5567033/5567033-1795098332669-55c6260fc3a46.jpg",
+      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/De-positie-van-Yesilgz-wordt-onhoudbaar-e3slkqi",
+      "duration": "00:31:26",
+      "author": "Tom Jessen en Maarten van Rossem",
+      "summary": "Yesilgöz zette hoog in tijdens de begrotingsonderhandelingen, maar kreeg uiteindelijk haar zin niet. De zoveelste politieke nederlaag roept steeds grotere vragen op over haar leiderschap binnen de VVD.⁠Doe een kleine donatie🎧 Meer horen:- College Politieke Geschiedenis NL🔔 Meer van ons:- Instagram- Website / Nieuwsbrief- Substack - WhatsApp-groep",
+      "description": "<p>Yesilgöz zette hoog in tijdens de begrotingsonderhandelingen, maar kreeg uiteindelijk haar zin niet. De zoveelste politieke nederlaag roept steeds grotere vragen op over haar leiderschap binnen de VVD.</p><p><a href=\"https://www.maartendepodcast.nl/doneer/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">⁠Doe een kleine donatie</a></p><p>🎧 Meer horen:</p><p>- <a href=\"https://www.maartendepodcast.nl/product/college-politieke-geschiedenis-van-nederland/\" target=\"_blank\" rel=\"noopener noreferer\">College Politieke Geschiedenis NL</a></p><p>🔔 Meer van ons:</p><p>- <a href=\"https://www.instagram.com/maartentom/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Instagram</a></p><p>- <a href=\"https://www.maartendepodcast.nl/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Website</a> / <a href=\"https://www.maartendepodcast.nl/nieuwsbrief/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Nieuwsbrief</a></p><p>- <a href=\"https://maartentom.substack.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Substack</a> </p><p>- <a href=\"https://bit.ly/43vMnw4\" target=\"_blank\" rel=\"ugc noopener noreferrer\">WhatsApp-groep</a></p>"
+    },
+    {
+      "id": "20261119-dedag-epunknown",
+      "provider": "dedag",
+      "title": "Van haar tot wolken: de details in GTA VI",
+      "episode_number": null,
+      "date": "2026-11-19T14:02:00.000Z",
+      "audio_url": "https://podcast.npo.nl/file/de-dag/148372/van-haar-tot-wolken-de-details-in-gta-vi.mp3?awCollectionid=feed-123-de-dag&amp;awEpisodeid=feed-123-de-dag_episode-148372-WO_NOS_20374444",
+      "image_url": "https://podcast.npo.nl/data/thumb/de-dag.1400.8585e6e74b55200e4a654eef337073d5.jpg",
+      "url": "https://podcast.npo.nl/file/de-dag/148372/van-haar-tot-wolken-de-details-in-gta-vi.mp3?awCollectionid=feed-123-de-dag&awEpisodeid=feed-123-de-dag_episode-148372-WO_NOS_20374444",
+      "duration": "00:24:16",
+      "author": "",
+      "summary": "13 jaar lang is erop gewacht: een nieuwe Grand Theft Auto. En sinds vannacht klokslag 12 uur is GTA VI ook in ons land te spelen. Mensen hebben vrijgevraagd, zijn opgebleven om het meteen te spelen, de reviews zijn al direct lovend en het geld stroomt binnen bij ontwikkelaar Rockstar. Worden de enorme verwachtingen die er zijn ook ingelost?\n\nMet René Glas, Universitair docent game research aan de Universiteit Utrecht, werpen we een eerste blik op de gloednieuwe game. De details zijn heel indrukwekkend volgens Glas. Hoe haar beweegt en wolken boven je hangen is ongekend. Maar ontwikkelaar Rockstar heeft ook een unieke positie: met een enorm budget en heel veel tijd zetten ze een game neer die al bijna 30 jaar de toon zet in de gamewereld.\n\nReageren: mail naar dedag@nos.nl (mailto:dedag@nos.nl)\n\nPresentatie & montage: Marco Geijtenbeek\n\nRedactie: IJsbrand Terpstra\n\nEindredactie: Judith van de Hulsbeek",
+      "description": "13 jaar lang is erop gewacht: een nieuwe Grand Theft Auto. En sinds vannacht klokslag 12 uur is GTA VI ook in ons land te spelen. Mensen hebben vrijgevraagd, zijn opgebleven om het meteen te spelen, de reviews zijn al direct lovend en het geld stroomt binnen bij ontwikkelaar Rockstar. Worden de enorme verwachtingen die er zijn ook ingelost?\n\nMet René Glas, Universitair docent game research aan de Universiteit Utrecht, werpen we een eerste blik op de gloednieuwe game. De details zijn heel indrukwekkend volgens Glas. Hoe haar beweegt en wolken boven je hangen is ongekend. Maar ontwikkelaar Rockstar heeft ook een unieke positie: met een enorm budget en heel veel tijd zetten ze een game neer die al bijna 30 jaar de toon zet in de gamewereld.\n\nReageren: mail naar dedag@nos.nl (mailto:dedag@nos.nl)\n\nPresentatie & montage: Marco Geijtenbeek\n\nRedactie: IJsbrand Terpstra\n\nEindredactie: Judith van de Hulsbeek"
+    },
+    {
+      "id": "20261119-thedaily-epunknown",
+      "provider": "thedaily",
+      "title": "‘Did A.I. Break the Internet?’ and Other Things We’ve Worried About This Week",
+      "episode_number": null,
+      "date": "2026-11-19T10:47:50.000Z",
+      "audio_url": "https://tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/e4f0c51f-a7f8-409f-8786-bccd54d2e1a1/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=e4f0c51f-a7f8-409f-8786-bccd54d2e1a1&feed=54nAGcIl",
+      "image_url": "https://image.simplecastcdn.com/images/34e5431c-f7f7-4edd-9b5d-0277e197a71b/adcc5d3e-8f40-4ef2-87b0-e961f48784a8/3000x3000/19thedaily_applespotify_2.jpg?aid=rss_feed",
+      "url": "https://www.nytimes.com/the-daily",
+      "duration": "00:28:55",
+      "author": "The New York Times",
+      "summary": "A cascade of technology glitches has worried many people. Our reporters explain what is going on.",
+      "description": "<p>In recent days, a series of technical outages have grounded planes, closed bank accounts, shut us out of our email and generally created a sense that the world is either falling apart or being hacked, or maybe both.</p><p>The New York Times reporters Karoun Demirjian, Dustin Volz and Zolan Kanno-Youngs explain what’s really going on and whether we can expect it to continue.</p><p>Guest:</p><ul><li><a href=\"https://www.nytimes.com/by/karoun-demirjian\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Karoun Demirjian</strong></a>, a breaking news reporter for the The New York Times.</li><li><a href=\"https://www.nytimes.com/by/dustin-volz\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Dustin Volz</strong></a>, a cybersecurity and intelligence reporter for The New York Times.</li><li><a href=\"https://www.nytimes.com/by/zolan-kanno-youngs\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Zolan Kanno-Youngs</strong></a>, a White House correspondent for The New York Times.</li></ul><p>Background reading:&nbsp;</p><ul><li><a href=\"https://www.nytimes.com/2026/11/18/us/politics/tech-outages-trump-national-security.html\" target=\"_blank\" rel=\"noopener noreferrer\">Widespread technology outages</a> put a focus on President Trump’s national security cuts.</li><li><a href=\"https://www.nytimes.com/2026/11/18/us/sean-duffy-ground-stop-faa-trump.html\" target=\"_blank\" rel=\"noopener noreferrer\">A ground stop</a> for flights came as Transportation Secretary Sean Duffy pushed to rapidly upgrade aviation systems.</li></ul><p>Photo: Alex Kent/The New York Times</p>\n<p><p>For more information on today’s episode, visit <a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday. </p><p> </p><p>Subscribe today at <a href=\"http://nytimes.com/podcasts\">nytimes.com/podcasts</a> or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here <a href=\"https://www.nytimes.com/activate-access/audio?source=podcatcher\">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><br/> <p>Hosted by Simplecast, an AdsWizz company. See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>"
+    },
+    {
       "id": "20261119-nrcvandaag-epunknown",
       "provider": "nrcvandaag",
       "title": "Hoe werknemers van een Nederlands bedrijf meedoen in de Oekraïne-oorlog",
@@ -162318,7 +162388,7 @@
     }
   ],
   "metadata": {
-    "total_episodes": 11594,
+    "total_episodes": 11599,
     "total_providers": 7
   }
 }
