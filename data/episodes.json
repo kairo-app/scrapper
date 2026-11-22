@@ -1,14 +1,56 @@
 {
   "episodes": [
     {
+      "id": "20261121-maartenvanrossem-ep1198",
+      "provider": "maartenvanrossem",
+      "title": "De kabinetscrisis is alleen maar uitgesteld",
+      "episode_number": 1198,
+      "date": "2026-11-21T19:53:27.000Z",
+      "audio_url": "https://traffic.megaphone.fm/APO6975205157.mp3",
+      "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5567033/5567033-1795290777557-0f792ff0ec0a3.jpg",
+      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/De-kabinetscrisis-is-alleen-maar-uitgesteld-e3spoi5",
+      "duration": "00:35:01",
+      "author": "Tom Jessen en Maarten van Rossem",
+      "summary": "De rust in Den Haag lijkt teruggekeerd, maar het vertrouwen is broos. Er is één belangrijke aanwijzing waarom het opnieuw mis kan gaan.⁠Doe een kleine donatie🎧 Meer horen:- College Politieke Geschiedenis NL🔔 Meer van ons:- Instagram- Website / Nieuwsbrief- Substack - WhatsApp-groep",
+      "description": "<p>De rust in Den Haag lijkt teruggekeerd, maar het vertrouwen is broos. Er is één belangrijke aanwijzing waarom het opnieuw mis kan gaan.</p><p><a href=\"https://www.maartendepodcast.nl/doneer/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">⁠Doe een kleine donatie</a></p><p>🎧 Meer horen:</p><p>- <a href=\"https://www.maartendepodcast.nl/product/college-politieke-geschiedenis-van-nederland/\" target=\"_blank\" rel=\"noopener noreferer\">College Politieke Geschiedenis NL</a></p><p>🔔 Meer van ons:</p><p>- <a href=\"https://www.instagram.com/maartentom/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Instagram</a></p><p>- <a href=\"https://www.maartendepodcast.nl/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Website</a> / <a href=\"https://www.maartendepodcast.nl/nieuwsbrief/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Nieuwsbrief</a></p><p>- <a href=\"https://maartentom.substack.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Substack</a> </p><p>- <a href=\"https://bit.ly/43vMnw4\" target=\"_blank\" rel=\"ugc noopener noreferrer\">WhatsApp-groep</a></p>"
+    },
+    {
+      "id": "20261121-thedaily-epunknown",
+      "provider": "thedaily",
+      "title": "Hakeem Jeffries on Trump, Stephen Miller, AIPAC and the Road Ahead",
+      "episode_number": null,
+      "date": "2026-11-21T11:00:00.000Z",
+      "audio_url": "https://tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/d1952161-1899-40bb-8bc6-cc2b1db8a74e/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=d1952161-1899-40bb-8bc6-cc2b1db8a74e&feed=54nAGcIl",
+      "image_url": "https://image.simplecastcdn.com/images/082bdd7f-2cfd-41ac-b245-e50a79e0e871/b5cf3efb-6fe7-4762-afe7-2e6bbb4cc6f6/3000x3000/21theinterview_jeffries_applespotify.jpg?aid=rss_feed",
+      "url": "https://www.nytimes.com/the-daily",
+      "duration": "00:54:45",
+      "author": "The New York Times",
+      "summary": "The Democratic nominee for House speaker will have a challenging job. We asked him how he plans to lead.",
+      "description": "<p>The Democratic nominee for House speaker will have a challenging job. We asked him how he plans to lead.</p><ul><li>Thoughts? Email us at&nbsp;<strong>theinterview@nytimes.com</strong></li><li>Watch our show on YouTube: <a href=\"https://www.youtube.com/@theinterviewpodcast\" rel=\"noopener noreferrer\"><strong>youtube.com/@TheInterviewPodcast</strong></a></li><li>For transcripts and more, visit: <a href=\"https://www.nytimes.com/column/the-interview\" rel=\"noopener noreferrer\"><strong>nytimes.com/theinterview</strong></a></li></ul>\n<p><p>For more information on today’s episode, visit <a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday. </p><p> </p><p>Subscribe today at <a href=\"http://nytimes.com/podcasts\">nytimes.com/podcasts</a> or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here <a href=\"https://www.nytimes.com/activate-access/audio?source=podcatcher\">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><br/> <p>Hosted by Simplecast, an AdsWizz company. See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>"
+    },
+    {
+      "id": "20261121-dedag-epunknown",
+      "provider": "dedag",
+      "title": "Nieuwsuurverhaal: buitenlandse draagmoeders, de wereld achter de reclames",
+      "episode_number": null,
+      "date": "2026-11-21T05:45:00.000Z",
+      "audio_url": "https://podcast.npo.nl/file/de-dag/148406/nieuwsuurverhaal-buitenlandse-draagmoeders-de-wereld-achter-de-reclames.mp3?awCollectionid=feed-123-de-dag&amp;awEpisodeid=feed-123-de-dag_episode-148406-WO_NOS_20374582",
+      "image_url": "https://podcast.npo.nl/data/thumb/feeditem/148406.1400.79b938d9c9dcd443d435f0ea5d61ad1c.jpg",
+      "url": "https://podcast.npo.nl/file/de-dag/148406/nieuwsuurverhaal-buitenlandse-draagmoeders-de-wereld-achter-de-reclames.mp3?awCollectionid=feed-123-de-dag&awEpisodeid=feed-123-de-dag_episode-148406-WO_NOS_20374582",
+      "duration": "00:23:54",
+      "author": "",
+      "summary": "Met testimonials van gelukkige wensouders met een baby op de arm, en vrolijke filmpjes van zwangere vrouwen, bieden verschillende internationale bureau's buitenlandse draagmoeders aan bij wensouders.\n\nEn die zogenoemde buitenlandroute is voor veel wensouders interessant, omdat het in eigen land vaak ingewikkeld is.\n\nRenee van Hest en Fleur Damen van Nieuwsuur doken in de wereld achter de reclames. En die wereld ziet er een stuk minder mooi uit. \n\nReageren? Mail dedag@nos.nl\n\nPresentatie en montage: Elisabeth Steinz\n\nRedactie: Rosanne Sies\n\nEindredactie: Judith van de Hulsbeek",
+      "description": "Met testimonials van gelukkige wensouders met een baby op de arm, en vrolijke filmpjes van zwangere vrouwen, bieden verschillende internationale bureau's buitenlandse draagmoeders aan bij wensouders.\n\nEn die zogenoemde buitenlandroute is voor veel wensouders interessant, omdat het in eigen land vaak ingewikkeld is.\n\nRenee van Hest en Fleur Damen van Nieuwsuur doken in de wereld achter de reclames. En die wereld ziet er een stuk minder mooi uit. \n\nReageren? Mail dedag@nos.nl\n\nPresentatie en montage: Elisabeth Steinz\n\nRedactie: Rosanne Sies\n\nEindredactie: Judith van de Hulsbeek"
+    },
+    {
       "id": "20261120-maartenvanrossem-ep1197",
       "provider": "maartenvanrossem",
-      "title": "De keuze die Trumps terugkeer mogelijk maakte",
+      "title": "Trump heeft de weg vrijgemaakt voor iets nog veel ergers",
       "episode_number": 1197,
       "date": "2026-11-20T17:16:28.000Z",
       "audio_url": "https://traffic.megaphone.fm/APO4867376092.mp3",
       "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5567033/5567033-1795194896775-d2d14556322eb.jpg",
-      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/De-keuze-die-Trumps-terugkeer-mogelijk-maakte-e3so68a",
+      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/Trump-heeft-de-weg-vrijgemaakt-voor-iets-nog-veel-ergers-e3so68a",
       "duration": "00:31:03",
       "author": "Tom Jessen en Maarten van Rossem",
       "summary": "De Amerikaanse politiek blijkt moeilijker te voorspellen dan ooit. Peilingen zitten ernaast, kiezers veranderen van koers en politieke zekerheden verdwijnen. Wat zegt dat over de staat van de Amerikaanse democratie? En welke rol speelde Biden in de terugkeer van Trump?⁠Doe een kleine donatie🎧 Meer horen:- College 250 jaar Amerika🔔 Meer van ons:- Instagram- Website / Nieuwsbrief- Substack - WhatsApp-groep",
@@ -239,6 +281,20 @@
       "description": "<p>De VVD wilde een duidelijke breuk met de huidige politieke situatie, maar de uitkomst pakt heel anders uit.</p><p><a href=\"https://www.maartendepodcast.nl/doneer/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">⁠Doe een kleine donatie</a></p><p>🎧 Meer horen:</p><p>- <a href=\"https://www.maartendepodcast.nl/product/college-politieke-geschiedenis-van-nederland/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">College Politieke Geschiedenis NL</a></p><p>🔔 Meer van ons:</p><p>- <a href=\"https://www.instagram.com/maartentom/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Instagram</a></p><p>- <a href=\"https://www.maartendepodcast.nl/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Website</a> / <a href=\"https://www.maartendepodcast.nl/nieuwsbrief/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Nieuwsbrief</a></p><p>- <a href=\"https://maartentom.substack.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Substack</a> </p><p>- <a href=\"https://bit.ly/43vMnw4\" target=\"_blank\" rel=\"ugc noopener noreferrer\">WhatsApp-groep</a></p>"
     },
     {
+      "id": "20261117-dedag-epunknown",
+      "provider": "dedag",
+      "title": "De oneindige reis van Voyager 1",
+      "episode_number": null,
+      "date": "2026-11-17T13:13:00.000Z",
+      "audio_url": "https://podcast.npo.nl/file/de-dag/148286/de-oneindige-reis-van-voyager-1.mp3?awCollectionid=feed-123-de-dag&amp;awEpisodeid=feed-123-de-dag_episode-148286-WO_NOS_20374127",
+      "image_url": "https://podcast.npo.nl/data/thumb/de-dag.1400.8585e6e74b55200e4a654eef337073d5.jpg",
+      "url": "https://podcast.npo.nl/file/de-dag/148286/de-oneindige-reis-van-voyager-1.mp3?awCollectionid=feed-123-de-dag&awEpisodeid=feed-123-de-dag_episode-148286-WO_NOS_20374127",
+      "duration": "00:22:56",
+      "author": "",
+      "summary": "Bij de lancering in 1977 had niemand gedacht dat het ruimteschip de Voyager het zo lang vol zou houden. Bijna 50 jaar later is er nog steeds contact en deze week bereikt 'ie de magische afstand van 1 lichtdag afstand van de aarde.\n\nMet ruimtevaartdeskundige Rob van Hassel volgen we de route van de Voyager, van lancering op aarde tot...ja tot waar en wanneer eigenlijk?\n\nReageren? Mail dedag@nos.nl\n\nPresentatie en montage: Elisabeth Steinz\n\nRedactie: IJsbrand Terpstra\n\nEindredactie: Judith van de Hulsbeek",
+      "description": "Bij de lancering in 1977 had niemand gedacht dat het ruimteschip de Voyager het zo lang vol zou houden. Bijna 50 jaar later is er nog steeds contact en deze week bereikt 'ie de magische afstand van 1 lichtdag afstand van de aarde.\n\nMet ruimtevaartdeskundige Rob van Hassel volgen we de route van de Voyager, van lancering op aarde tot...ja tot waar en wanneer eigenlijk?\n\nReageren? Mail dedag@nos.nl\n\nPresentatie en montage: Elisabeth Steinz\n\nRedactie: IJsbrand Terpstra\n\nEindredactie: Judith van de Hulsbeek"
+    },
+    {
       "id": "20261117-thedaily-epunknown",
       "provider": "thedaily",
       "title": "Democrats Promised Lower Prices. What Can They Actually Do?",
@@ -251,20 +307,6 @@
       "author": "The New York Times",
       "summary": "Three reporters talk about what options the party really has to try to bring down the cost of living.",
       "description": "<p>The Democratic Party swept the midterm elections by making big promises to Americans about bringing down the high cost of living. But when they take control of Congress in January, they will face a president who can veto anything they put forward.</p><p>The New York Times reporters Rebecca F. Elliot, Margot Sanger-Katz and Ben Casselman each discuss what, if anything, Democrats can really do to fix the key problems that propelled them into office.</p><p>Guest:</p><ul><li><a href=\"https://www.nytimes.com/by/rebecca-f-elliott\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Rebecca F. Elliott</strong></a>, an energy reporter for The New York Times.</li><li><a href=\"https://www.nytimes.com/by/margot-sanger-katz\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Margot Sanger-Katz</strong></a>, a reporter on health care policy and government spending for The New York Times.</li><li><a href=\"https://www.nytimes.com/by/ben-casselman\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Ben Casselman</strong></a>, the chief economics correspondent for The New York Times.</li></ul><p>Background reading:&nbsp;</p><ul><li>A top Democrat is eyeing a <a href=\"https://www.nytimes.com/2026/11/14/us/politics/house-democrats-affordability-costs-budget.html\" target=\"_blank\" rel=\"noopener noreferrer\">filibuster-proof bill</a> to unlock the affordability agenda.</li><li>Could the <a href=\"https://www.nytimes.com/2026/11/09/business/economy/ai-bubble-democrats-midterms-economy.html\" target=\"_blank\" rel=\"noopener noreferrer\">voter backlash against A.I.</a> help the economy?</li></ul><p>Photo: Sean Rayford for The New York Times, Joe Raedle/Getty Images, Melyssa St. Michael for The New York Times</p><p>For more information on today’s episode, visit&nbsp;<a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\" rel=\"noopener noreferrer\"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday.&nbsp;</p>\n<p><p>For more information on today’s episode, visit <a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday. </p><p> </p><p>Subscribe today at <a href=\"http://nytimes.com/podcasts\">nytimes.com/podcasts</a> or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here <a href=\"https://www.nytimes.com/activate-access/audio?source=podcatcher\">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><br/> <p>Hosted by Simplecast, an AdsWizz company. See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>"
-    },
-    {
-      "id": "20261117-dedag-epunknown",
-      "provider": "dedag",
-      "title": "Oproep: vragen voor correspondent Lennard Swolfs (Israël en de Palestijnse gebieden)",
-      "episode_number": null,
-      "date": "2026-11-17T05:45:00.000Z",
-      "audio_url": "https://podcast.npo.nl/file/de-dag/148242/oproep-vragen-voor-correspondent-lennard-swolfs-israel-en-de-palestijnse-gebieden.mp3?awCollectionid=feed-123-de-dag&amp;awEpisodeid=feed-123-de-dag_episode-148242-WO_NOS_20373879",
-      "image_url": "https://podcast.npo.nl/data/thumb/feeditem/148242.1400.d0de77cdcab8c42c0d8f5148e4f8dea1.jpg",
-      "url": "https://podcast.npo.nl/file/de-dag/148242/oproep-vragen-voor-correspondent-lennard-swolfs-israel-en-de-palestijnse-gebieden.mp3?awCollectionid=feed-123-de-dag&awEpisodeid=feed-123-de-dag_episode-148242-WO_NOS_20373879",
-      "duration": "00:00:32",
-      "author": "",
-      "summary": "In onze serie 'Van onze correspondent' is deze week Lennard Swolfs aan de beurt. Hij is sinds juni van dit jaar correspondent Israël en Palestijnse Gebieden voor de NOS. Heb je vragen voor Lennard? Mail ze dan, liefst ingesproken als audiobericht, vóór komende donderdag naar dedag@nos.nl en misschien hoor je jouw vraag terug in de podcast.",
-      "description": "In onze serie 'Van onze correspondent' is deze week Lennard Swolfs aan de beurt. Hij is sinds juni van dit jaar correspondent Israël en Palestijnse Gebieden voor de NOS. Heb je vragen voor Lennard? Mail ze dan, liefst ingesproken als audiobericht, vóór komende donderdag naar dedag@nos.nl en misschien hoor je jouw vraag terug in de podcast."
     },
     {
       "id": "20261117-nrcvandaag-epunknown",
@@ -162444,7 +162486,7 @@
     }
   ],
   "metadata": {
-    "total_episodes": 11603,
+    "total_episodes": 11606,
     "total_providers": 7
   }
 }
