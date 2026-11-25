@@ -1,6 +1,62 @@
 {
   "episodes": [
     {
+      "id": "20261125-nrcvandaag-epunknown",
+      "provider": "nrcvandaag",
+      "title": "Stuntstroopwafels en spotgoedkope spaghetti: daalt de boodschappenprijs?",
+      "episode_number": null,
+      "date": "2026-11-25T04:00:00.000Z",
+      "audio_url": "https://rss.art19.com/episodes/cd267a41-de48-4c7b-951d-98ca4772f8fa.mp3?rss_browser=BAhJIgtTYWZhcmkGOgZFVA%3D%3D--e8daa48e4e049c2293a0ad1663b4a762c475e386",
+      "image_url": "https://content.production.cdn.art19.com/images/bc/d8/e8/8b/bcd8e88b-a4c2-4018-937f-3213342ad09e/d53281e4850abdfb734982c2512c87db5ff67a4cbf8a158145dc7c464e1e6145edb56e68c7d5f052ac57acadb77ec85c15fdae86301c956bc4c41396b9a626ac.jpeg",
+      "url": "",
+      "duration": "00:19:38",
+      "author": "",
+      "summary": "Voedselredacteur Martine Kamsma onderzoekt de fluctuerende prijzen in de supermarkt",
+      "description": "<p>Wat is er aan de hand met de prijzen in de supermarkten? Het lijkt alsof de boodschappen alleen maar duurder worden. Maar, vertelt voedselredacteur Martine Kamsma, dat is maar deels het geval.</p><p><br></p><p><em>Gast: Martine Kamsma</em></p><p><em>Presentatie: Gabriella Adèr </em></p><p><em>Montage:&nbsp;Michiel van Poelgeest</em></p><p><em>Eindredactie: Iris Verhulsdonk &amp; Iddo Havinga</em></p><p><em>Coördinatie: Ilse Eshuis</em></p><p><em>Productie: Rhea Stroink</em></p><p><br></p><p><em>Heb je vragen, suggesties of ideeën over onze journalistiek? Mail dan naar onze redactie via podcast@nrc.nl.</em></p><p>Zie het privacybeleid op <a href=\"https://art19.com/privacy\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy</a> en de privacyverklaring van Californië op <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"noopener noreferrer\" target=\"_blank\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>"
+    },
+    {
+      "id": "20261125-sansstormcast-ep10194",
+      "provider": "sansstormcast",
+      "title": "Aggressive SSH Scanning from 109.160.32.0/24; VMware VMSA-2026-0011 vCenter Auth Bypass (CVE-2026-123903) (Nov 25th 2026)",
+      "episode_number": 10194,
+      "date": "2026-11-25T02:00:03.000Z",
+      "audio_url": "https://traffic.libsyn.com/securitypodcast/10194.mp3",
+      "image_url": "https://isc.sans.edu/images/podcast3000.jpg",
+      "url": "https://isc.sans.edu/podcastdetail/10194",
+      "duration": "5:04",
+      "author": "Dr. Johannes B. Ullrich",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. \nAggressive SSH Scanning from 109.160.32.0/24; VMware VMSA-2026-0011 vCenter Auth Bypass (CVE-2026-123903) (Nov 25th 2026)",
+      "description": "<br/>\nToday's episode covers aggressive SSH brute-force scanning from 109.160.32.0/24 against DShield honeypots, Broadcom's critical VMSA-2026-0011 advisory for vCenter, ESX, Workstation, Fusion, and Avi Load Balancer, and a reminder that DShield was first put together on Thanksgiving 2000.<br/>\nScanning from Subnet 109.160.32.0/24<br/>\nGuy Bruneau describes SSH brute-force scanning from 109.160.32.0/24, a Romanian VPS range, with 127 unique addresses hitting one DShield sensor and 134 hitting the other; successful logins typically ran uname and then disconnected. Many of the scans began with a static IP ID and an unusually high TTL above 200.<br/>\n<a href=\"https://isc.sans.edu/diary/33550\">https://isc.sans.edu/diary/33550</a><br/>\nvCenter and other VMware Vulnerabilities<br/>\nBroadcom published critical advisory VMSA-2026-0011 for VMware ESX, vCenter, Workstation, Fusion, Tools, and Avi Load Balancer, led by a vCenter authentication bypass (CVE-2026-123903, CVSS 9.8). The bulletin also covers a vCenter arbitrary file write, denial-of-service issues, local privilege escalation, a security policy enforcement failure, and Workstation and Fusion escape bugs; patches are available, and these flaws are distinct from last week's VMSA-2026-0009.<br/>\n<a href=\"https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39626\">https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39626</a><br/>\nDShield Birthday<br/>\nDShield, the data engine behind the Internet Storm Center, was originally put together over Thanksgiving weekend in 2000.<br/>\n<a href=\"https://isc.sans.edu/diary/30420\">https://isc.sans.edu/diary/30420</a><br/>\nNo Podcast on Thursday and Friday (Thanksgiving)<br/>\nMy Upcoming Classes<br/>\n<a href=\"https://www.sans.org/profiles/dr-johannes-ullrich\">https://www.sans.org/profiles/dr-johannes-ullrich</a><br/>"
+    },
+    {
+      "id": "20261124-maartenvanrossem-ep1201",
+      "provider": "maartenvanrossem",
+      "title": "Achter de schermen werkt de VVD aan de kabinetsval",
+      "episode_number": 1201,
+      "date": "2026-11-24T15:00:00.000Z",
+      "audio_url": "https://traffic.megaphone.fm/APO8843661976.mp3",
+      "image_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5567033/5567033-1795532527792-e9e1f34c22751.jpg",
+      "url": "https://podcasters.spotify.com/pod/show/maartenvanrossem/episodes/Achter-de-schermen-werkt-de-VVD-aan-de-kabinetsval-e3suioh",
+      "duration": "00:30:56",
+      "author": "Tom Jessen en Maarten van Rossem",
+      "summary": "Terwijl de VVD publiekelijk het kabinet overeind houdt, wordt er achter de schermen aan een heel ander scenario gewerkt. ⁠Doe een kleine donatie🎧 Meer horen:- College Oorlog Oekraïne🔔 Meer van ons:- Instagram- Website / Nieuwsbrief- Substack - WhatsApp-groep",
+      "description": "<p>Terwijl de VVD publiekelijk het kabinet overeind houdt, wordt er achter de schermen aan een heel ander scenario gewerkt. </p><p><a href=\"https://www.maartendepodcast.nl/doneer/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">⁠Doe een kleine donatie</a></p><p>🎧 Meer horen:</p><p>- <a href=\"https://www.maartendepodcast.nl/product/oorlog-oekraine/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">College Oorlog Oekraïne</a></p><p>🔔 Meer van ons:</p><p>- <a href=\"https://www.instagram.com/maartentom/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Instagram</a></p><p>- <a href=\"https://www.maartendepodcast.nl/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Website</a> / <a href=\"https://www.maartendepodcast.nl/nieuwsbrief/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Nieuwsbrief</a></p><p>- <a href=\"https://maartentom.substack.com/\" target=\"_blank\" rel=\"ugc noopener noreferrer\">Substack</a> </p><p>- <a href=\"https://bit.ly/43vMnw4\" target=\"_blank\" rel=\"ugc noopener noreferrer\">WhatsApp-groep</a></p>"
+    },
+    {
+      "id": "20261124-thedaily-epunknown",
+      "provider": "thedaily",
+      "title": "Too Big to Fire: Jensen Huang’s Return to Nvidia",
+      "episode_number": null,
+      "date": "2026-11-24T10:45:00.000Z",
+      "audio_url": "https://tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/7dffca51-7bbc-4928-85e0-ea912edaa244/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=7dffca51-7bbc-4928-85e0-ea912edaa244&feed=54nAGcIl",
+      "image_url": "https://image.simplecastcdn.com/images/34e5431c-f7f7-4edd-9b5d-0277e197a71b/091518d6-fddf-40a4-98be-aff2fa735ccf/3000x3000/24thedaily_applespotify_9.jpg?aid=rss_feed",
+      "url": "https://www.nytimes.com/the-daily",
+      "duration": "00:30:54",
+      "author": "The New York Times",
+      "summary": "President Trump set in motion a weekend of maneuvering to help reinstate Nvidia’s chief executive.",
+      "description": "<p>Nvidia has reinstated Jensen Huang as chief executive after a pressure campaign led by President Trump that urged its board to bring him back.</p><p>Tripp Mickle and Jonathan Swan, who have been covering the turmoil at the chip-making giant Nvidia for The New York Times, explain what Mr. Huang’s return reveals about power and impunity in the age of artificial intelligence.</p><p>Guest:</p><ul><li><a href=\"https://www.nytimes.com/by/tripp-mickle\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Tripp Mickle</strong></a>, who reports about Silicon Valley for The New York Times.</li><li><a href=\"https://www.nytimes.com/by/jonathan-swan\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Jonathan Swan</strong></a>, a White House reporter for The New York Times.</li></ul><p>Background reading:&nbsp;</p><ul><li>The campaign by Mr. Trump aimed to assure Nvidia’s board that <a href=\"https://www.nytimes.com/2026/11/23/business/nvidia-jensen-huang.html\" target=\"_blank\" rel=\"noopener noreferrer\">Mr. Huang did not present a national security risk</a>.</li><li>The president wanted Nvidia’s chief reinstated. <a href=\"https://www.nytimes.com/2026/11/23/us/politics/trump-nvidia-huang.html\" target=\"_blank\" rel=\"noopener noreferrer\">Here’s how he succeeded</a>.</li></ul><p>Photo: Philip Cheung for The New York Times</p>\n<p><p>For more information on today’s episode, visit <a href=\"http://nytimes.com/thedaily?smid=pc-thedaily\"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday. </p><p> </p><p>Subscribe today at <a href=\"http://nytimes.com/podcasts\">nytimes.com/podcasts</a> or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here <a href=\"https://www.nytimes.com/activate-access/audio?source=podcatcher\">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><br/> <p>Hosted by Simplecast, an AdsWizz company. See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>"
+    },
+    {
       "id": "20261124-dedag-epunknown",
       "provider": "dedag",
       "title": "OPROEP: voor Onze Correspondent...Christiaan Paauwe",
@@ -162668,7 +162724,7 @@
     }
   ],
   "metadata": {
-    "total_episodes": 11619,
+    "total_episodes": 11623,
     "total_providers": 7
   }
 }
